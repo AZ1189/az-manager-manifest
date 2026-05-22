@@ -1,12 +1,5 @@
-# AZ Manager Manifest
+﻿# AZ Manager Manifest
 
-Live manifest consumed by AZ Manager.
+Version: 1
 
-After this repo is pushed to GitHub, use the raw URL in `AZ-Manager/config.json`:
-
-```json
-{
-  "manifestUrl": "https://raw.githubusercontent.com/YOUR-GITHUB/az-manager-manifest/main/manifest.json"
-}
-```
-
+Installer feed for AZ Manager.
