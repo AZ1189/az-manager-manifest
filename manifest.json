@@ -1,0 +1,216 @@
+{
+  "brand": "AZ Manager",
+  "companyName": "AZ",
+  "brandLogo": "assets/az.png",
+  "manifestVersion": 1,
+  "apps": [
+    {
+      "id": "az-manager",
+      "name": "AZ Manager",
+      "category": "Launcher",
+      "tagline": "The control center for every AZ product.",
+      "description": "AZ Manager is the main hub for the AZ ecosystem. It shows each product, checks what is installed, downloads installers from GitHub Releases and opens setup when you are ready.",
+      "version": "0.2.0",
+      "image": "assets/az-manager.png",
+      "accent": "#f6a400",
+      "installerUrl": "https://github.com/YOUR-GITHUB/AZ-Manager/releases/latest/download/AZ-Manager-Setup.exe",
+      "installerFileName": "AZ-Manager-Setup.exe",
+      "installerType": "exe",
+      "releaseNotes": "Starter launcher with Firebase login, GitHub manifest support, download progress and install checking.",
+      "requiredTier": "free",
+      "homepageUrl": "https://github.com/YOUR-GITHUB/AZ-Manager",
+      "installCheck": {
+        "paths": [
+          "%LocalAppData%\\Programs\\AZ Manager\\AZ Manager.exe",
+          "%ProgramFiles%\\AZ\\AZ Manager\\AZ Manager.exe",
+          "%AppData%\\AZ\\Manager\\AZ Manager.exe"
+        ]
+      }
+    },
+    {
+      "id": "az-chat",
+      "name": "AZ-Chat",
+      "category": "Messaging",
+      "tagline": "Private one-link encrypted chats.",
+      "description": "AZ Chat creates one-time secure chat links, asks the invite owner to approve the peer, then opens a direct encrypted chat with pairing PIN verification.",
+      "version": "1.0.0",
+      "image": "assets/az-chat.png",
+      "accent": "#10d8cf",
+      "installerUrl": "https://github.com/YOUR-GITHUB/AZ-Chat/releases/latest/download/AZ-Chat-Setup.exe",
+      "installerFileName": "AZ-Chat-Setup.exe",
+      "installerType": "exe",
+      "releaseNotes": "First encrypted P2P chat version with .azchatlink secure links, azchatsecure:// invite links, sender approval and Beam-style pairing verification.",
+      "requiredTier": "free",
+      "homepageUrl": "https://github.com/YOUR-GITHUB/AZ-Chat",
+      "installCheck": {
+        "paths": [
+          "%LocalAppData%\\AZ Applications\\AZ-Chat\\AZ-Chat.exe",
+          "%ProgramFiles%\\AZ\\AZ Chat\\AZ Chat.exe",
+          "%ProgramFiles%\\AZ\\AZ-Chat\\AZ-Chat.exe",
+          "%LocalAppData%\\Programs\\AZ Chat\\AZ Chat.exe",
+          "%LocalAppData%\\Programs\\AZ-Chat\\AZ-Chat.exe",
+          "%AppData%\\AZ\\AZ Chat\\AZ Chat.exe"
+        ]
+      }
+    },
+    {
+      "id": "az-ippy",
+      "name": "AZ-Ippy",
+      "category": "Compression",
+      "tagline": "AZip compression and archive management.",
+      "description": "AZ Ippy creates, opens and manages AZip archives from the AZ toolset.",
+      "version": "1.0.2",
+      "image": "assets/az-ippy.png",
+      "accent": "#ff3048",
+      "installerUrl": "https://github.com/YOUR-GITHUB/AZ-Ippy/releases/latest/download/AZ-Ippy-Setup.exe",
+      "installerFileName": "AZ-Ippy-Setup.exe",
+      "installerType": "exe",
+      "releaseNotes": "Initial AZ Manager manifest entry.",
+      "requiredTier": "free",
+      "homepageUrl": "https://github.com/YOUR-GITHUB/AZ-Ippy",
+      "installCheck": {
+        "paths": [
+          "%LocalAppData%\\AZ-Ippy\\AZ-Ippy.exe",
+          "%ProgramFiles%\\AZ\\AZ Ippy\\AZ Ippy.exe",
+          "%ProgramFiles%\\AZ\\AZ-Ippy\\AZ-Ippy.exe",
+          "%LocalAppData%\\Programs\\AZ Ippy\\AZ Ippy.exe",
+          "%LocalAppData%\\Programs\\AZ-Ippy\\AZ-Ippy.exe",
+          "%AppData%\\AZ\\AZ Ippy\\AZ Ippy.exe",
+          "%AppData%\\AZ\\AZ-Ippy\\AZ-Ippy.exe"
+        ]
+      }
+    },
+    {
+      "id": "az-beam",
+      "name": "AZ Beam",
+      "category": "Transfer",
+      "tagline": "Secure AZip transfer between devices.",
+      "description": "AZ Beam shares small connection files over Discord, email or Windows share targets, then uses that connection to beam AZips quickly.",
+      "version": "1.0.0",
+      "image": "assets/az-beam.png",
+      "accent": "#1d75ff",
+      "installerUrl": "https://github.com/YOUR-GITHUB/AZ-Beam/releases/latest/download/AZ-Beam-Setup.exe",
+      "installerFileName": "AZ-Beam-Setup.exe",
+      "installerType": "exe",
+      "releaseNotes": "Initial AZ Manager manifest entry.",
+      "requiredTier": "free",
+      "homepageUrl": "https://github.com/YOUR-GITHUB/AZ-Beam",
+      "installCheck": {
+        "paths": [
+          "%LocalAppData%\\AZ Applications\\AZ Beam\\AZ Beam.exe",
+          "%ProgramFiles%\\AZ\\AZ Beam\\AZ Beam.exe",
+          "%ProgramFiles%\\AZ\\AZ-Beam\\AZ-Beam.exe",
+          "%LocalAppData%\\Programs\\AZ Beam\\AZ Beam.exe",
+          "%LocalAppData%\\Programs\\AZ-Beam\\AZ-Beam.exe",
+          "%AppData%\\AZ\\AZ Beam\\AZ Beam.exe",
+          "%AppData%\\AZ\\AZ-Beam\\AZ-Beam.exe"
+        ]
+      }
+    },
+    {
+      "id": "az-recovery-plus",
+      "name": "AZ Recovery+",
+      "category": "Recovery",
+      "tagline": "Recover images, videos and important files.",
+      "description": "AZ Recovery+ scans storage, previews found media and helps recover files to a safe location.",
+      "version": "1.0.0",
+      "image": "assets/az-recovery.png",
+      "accent": "#39d34a",
+      "installerUrl": "https://github.com/YOUR-GITHUB/AZ-Recovery-Plus/releases/latest/download/AZ-Recovery-Plus-Setup.exe",
+      "installerFileName": "AZ-Recovery-Plus-Setup.exe",
+      "installerType": "exe",
+      "releaseNotes": "Initial AZ Manager manifest entry.",
+      "requiredTier": "free",
+      "homepageUrl": "https://github.com/YOUR-GITHUB/AZ-Recovery-Plus",
+      "installCheck": {
+        "paths": [
+          "%ProgramFiles%\\AZ Applications\\AZ Recovery+\\AZ-Recover.exe",
+          "%ProgramFiles%\\AZ\\AZ Recovery+\\AZ Recovery+.exe",
+          "%ProgramFiles%\\AZ\\AZ Recovery Plus\\AZ Recovery Plus.exe",
+          "%ProgramFiles%\\AZ\\AZ-Recovery\\AZ-Recovery.exe",
+          "%ProgramFiles%\\AZ\\AZ-Recover\\AZ-Recover.exe",
+          "%LocalAppData%\\AZ Applications\\AZ Recovery+\\AZ-Recover.exe",
+          "%LocalAppData%\\Programs\\AZ Recovery+\\AZ Recovery+.exe",
+          "%LocalAppData%\\Programs\\AZ Recovery Plus\\AZ Recovery Plus.exe",
+          "%LocalAppData%\\Programs\\AZ-Recovery\\AZ-Recovery.exe",
+          "%AppData%\\AZ\\AZ Recovery+\\AZ Recovery+.exe",
+          "%AppData%\\AZ\\AZ Recovery Plus\\AZ Recovery Plus.exe",
+          "%AppData%\\AZ\\AZ-Recovery\\AZ-Recovery.exe"
+        ]
+      }
+    },
+    {
+      "id": "sheet-az",
+      "name": "Sheet-AZ",
+      "category": "Spreadsheets",
+      "tagline": "Spreadsheet tools for AZ workflows.",
+      "description": "Sheet-AZ is planned for spreadsheet-focused AZ tools, templates, conversion helpers and future cloud account features.",
+      "version": "0.1.0",
+      "image": "assets/sheet-az.png",
+      "accent": "#2fcf36",
+      "installerUrl": "https://github.com/YOUR-GITHUB/Sheet-AZ/releases/latest/download/Sheet-AZ-Setup.exe",
+      "installerFileName": "Sheet-AZ-Setup.exe",
+      "installerType": "exe",
+      "releaseNotes": "Placeholder entry. Replace the GitHub release URL when the installer is published.",
+      "requiredTier": "free",
+      "homepageUrl": "https://github.com/YOUR-GITHUB/Sheet-AZ",
+      "installCheck": {
+        "paths": [
+          "%LocalAppData%\\AZ Applications\\Sheet-AZ\\Sheet-AZ.exe",
+          "%ProgramFiles%\\AZ\\Sheet-AZ\\Sheet-AZ.exe",
+          "%LocalAppData%\\Programs\\Sheet-AZ\\Sheet-AZ.exe",
+          "%AppData%\\AZ\\Sheet-AZ\\Sheet-AZ.exe"
+        ]
+      }
+    },
+    {
+      "id": "docu-az",
+      "name": "Docu-AZ",
+      "category": "Documents",
+      "tagline": "Document tools for AZ workflows.",
+      "description": "Docu-AZ is planned for document-focused AZ tools, templates, conversion helpers and future cloud account features.",
+      "version": "0.1.0",
+      "image": "assets/docu-az.png",
+      "accent": "#1f9bff",
+      "installerUrl": "https://github.com/YOUR-GITHUB/Docu-AZ/releases/latest/download/Docu-AZ-Setup.exe",
+      "installerFileName": "Docu-AZ-Setup.exe",
+      "installerType": "exe",
+      "releaseNotes": "Placeholder entry. Replace the GitHub release URL when the installer is published.",
+      "requiredTier": "free",
+      "homepageUrl": "https://github.com/YOUR-GITHUB/Docu-AZ",
+      "installCheck": {
+        "paths": [
+          "%LocalAppData%\\AZ Applications\\Docu-AZ\\Docu-AZ.exe",
+          "%ProgramFiles%\\AZ\\Docu-AZ\\Docu-AZ.exe",
+          "%LocalAppData%\\Programs\\Docu-AZ\\Docu-AZ.exe",
+          "%AppData%\\AZ\\Docu-AZ\\Docu-AZ.exe"
+        ]
+      }
+    },
+    {
+      "id": "az-convert",
+      "name": "AZ-Convert",
+      "category": "Conversion",
+      "tagline": "Convert files in bulk, locally.",
+      "description": "AZ-Convert detects documents, sheets, presentations, images, archives, Apple formats, ebooks, subtitles, video, audio and PDFs. Standalone V1 includes bundled AZ conversion cores for documents, spreadsheets, presentations, images, archives, media and PDFs.",
+      "version": "1.0.4",
+      "image": "assets/az-convert.png",
+      "accent": "#ff8a22",
+      "installerUrl": "https://github.com/YOUR-GITHUB/AZ-Convert/releases/latest/download/AZ-Convert-Setup-1.0.4.exe",
+      "installerFileName": "AZ-Convert Setup 1.0.4.exe",
+      "installerType": "exe",
+      "releaseNotes": "Fixed the top File/Help/About bar and added standalone EPUB, subtitle, ODS, DOCX/RTF, Markdown, ICO, WMV/M4V/MPEG, WMA and CAF conversion outputs.",
+      "requiredTier": "free",
+      "homepageUrl": "https://github.com/YOUR-GITHUB/AZ-Convert",
+      "installCheck": {
+        "paths": [
+          "%LocalAppData%\\AZ Applications\\AZ-Convert\\AZ-Convert.exe",
+          "%LocalAppData%\\Programs\\AZ-Convert\\AZ-Convert.exe",
+          "%ProgramFiles%\\AZ\\AZ-Convert\\AZ-Convert.exe",
+          "%LocalAppData%\\Programs\\AZ-Convert\\AZ-Convert.exe",
+          "%AppData%\\AZ\\AZ-Convert\\AZ-Convert.exe"
+        ]
+      }
+    }
+  ]
+}
