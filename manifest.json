@@ -1,4 +1,4 @@
-﻿{
+{
     "brand":  "AZ Manager",
     "companyName":  "AZ",
     "brandLogo":  "assets/az.png",
@@ -10,13 +10,13 @@
                      "category":  "Launcher",
                      "tagline":  "Launcher and installer manager for AZ apps.",
                      "description":  "Launcher and installer manager for AZ apps.",
-                     "version":  "0.2.1",
+                     "version":  "0.2.2",
                      "image":  "assets/az-manager.png",
                      "accent":  "#f6a400",
                      "installerUrl":  "https://github.com/AZ1189/AZ-Manager/releases/latest/download/AZ-Manager-Setup.exe",
                      "installerFileName":  "AZ-Manager-Setup.exe",
                      "installerType":  "exe",
-                     "releaseNotes":  "Version 0.2.1.",
+                     "releaseNotes":  "Version 0.2.2.",
                      "requiredTier":  "free",
                      "homepageUrl":  "https://github.com/AZ1189/AZ-Manager",
                      "installCheck":  {
