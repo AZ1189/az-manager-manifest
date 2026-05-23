@@ -21,11 +21,11 @@
       "homepageUrl": "https://github.com/AZ1189/AZ-Manager",
       "installCheck": {
         "paths": [
+          "%ProgramFiles%\\AZ\\AZ Manager\\AZ Manager.exe",
           "%ProgramFiles%\\AZ Manager\\AZ Manager.exe",
           "%ProgramFiles%\\AZ Applications\\AZ Manager\\AZ Manager.exe",
           "%LocalAppData%\\Programs\\AZ Manager\\AZ Manager.exe",
           "%LocalAppData%\\AZ Applications\\AZ Manager\\AZ Manager.exe",
-          "%ProgramFiles%\\AZ\\AZ Manager\\AZ Manager.exe",
           "%AppData%\\AZ\\Manager\\AZ Manager.exe"
         ],
         "aliases": [
@@ -35,11 +35,11 @@
           "AZ Manager.exe"
         ],
         "launchPaths": [
+          "%ProgramFiles%\\AZ\\AZ Manager\\AZ Manager.exe",
           "%ProgramFiles%\\AZ Manager\\AZ Manager.exe",
           "%ProgramFiles%\\AZ Applications\\AZ Manager\\AZ Manager.exe",
           "%LocalAppData%\\Programs\\AZ Manager\\AZ Manager.exe",
           "%LocalAppData%\\AZ Applications\\AZ Manager\\AZ Manager.exe",
-          "%ProgramFiles%\\AZ\\AZ Manager\\AZ Manager.exe",
           "%AppData%\\AZ\\Manager\\AZ Manager.exe"
         ]
       }
@@ -61,11 +61,11 @@
       "homepageUrl": "https://github.com/AZ1189/AZ-Convert",
       "installCheck": {
         "paths": [
+          "%ProgramFiles%\\AZ\\AZ-Convert\\AZ-Convert.exe",
           "%ProgramFiles%\\AZ-Convert\\AZ-Convert.exe",
           "%ProgramFiles%\\AZ Applications\\AZ-Convert\\AZ-Convert.exe",
           "%LocalAppData%\\AZ Applications\\AZ-Convert\\AZ-Convert.exe",
           "%LocalAppData%\\Programs\\AZ-Convert\\AZ-Convert.exe",
-          "%ProgramFiles%\\AZ\\AZ-Convert\\AZ-Convert.exe",
           "%AppData%\\AZ\\AZ-Convert\\AZ-Convert.exe"
         ],
         "aliases": [
@@ -77,11 +77,11 @@
           "AZ Convert.exe"
         ],
         "launchPaths": [
+          "%ProgramFiles%\\AZ\\AZ-Convert\\AZ-Convert.exe",
           "%ProgramFiles%\\AZ-Convert\\AZ-Convert.exe",
           "%ProgramFiles%\\AZ Applications\\AZ-Convert\\AZ-Convert.exe",
           "%LocalAppData%\\AZ Applications\\AZ-Convert\\AZ-Convert.exe",
           "%LocalAppData%\\Programs\\AZ-Convert\\AZ-Convert.exe",
-          "%ProgramFiles%\\AZ\\AZ-Convert\\AZ-Convert.exe",
           "%AppData%\\AZ\\AZ-Convert\\AZ-Convert.exe"
         ]
       }
@@ -103,11 +103,11 @@
       "homepageUrl": "https://github.com/AZ1189/Docu-AZ",
       "installCheck": {
         "paths": [
+          "%ProgramFiles%\\AZ\\Docu-AZ\\Docu-AZ.exe",
           "%ProgramFiles%\\Docu-AZ\\Docu-AZ.exe",
           "%ProgramFiles%\\AZ Applications\\Docu-AZ\\Docu-AZ.exe",
           "%LocalAppData%\\AZ Applications\\Docu-AZ\\Docu-AZ.exe",
           "%LocalAppData%\\Programs\\Docu-AZ\\Docu-AZ.exe",
-          "%ProgramFiles%\\AZ\\Docu-AZ\\Docu-AZ.exe",
           "%AppData%\\AZ\\Docu-AZ\\Docu-AZ.exe"
         ],
         "aliases": [
@@ -119,11 +119,11 @@
           "Docu AZ.exe"
         ],
         "launchPaths": [
+          "%ProgramFiles%\\AZ\\Docu-AZ\\Docu-AZ.exe",
           "%ProgramFiles%\\Docu-AZ\\Docu-AZ.exe",
           "%ProgramFiles%\\AZ Applications\\Docu-AZ\\Docu-AZ.exe",
           "%LocalAppData%\\AZ Applications\\Docu-AZ\\Docu-AZ.exe",
           "%LocalAppData%\\Programs\\Docu-AZ\\Docu-AZ.exe",
-          "%ProgramFiles%\\AZ\\Docu-AZ\\Docu-AZ.exe",
           "%AppData%\\AZ\\Docu-AZ\\Docu-AZ.exe"
         ]
       }
@@ -145,11 +145,11 @@
       "homepageUrl": "https://github.com/AZ1189/Sheet-AZ",
       "installCheck": {
         "paths": [
+          "%ProgramFiles%\\AZ\\Sheet-AZ\\Sheet-AZ.exe",
           "%ProgramFiles%\\Sheet-AZ\\Sheet-AZ.exe",
           "%ProgramFiles%\\AZ Applications\\Sheet-AZ\\Sheet-AZ.exe",
           "%LocalAppData%\\AZ Applications\\Sheet-AZ\\Sheet-AZ.exe",
           "%LocalAppData%\\Programs\\Sheet-AZ\\Sheet-AZ.exe",
-          "%ProgramFiles%\\AZ\\Sheet-AZ\\Sheet-AZ.exe",
           "%AppData%\\AZ\\Sheet-AZ\\Sheet-AZ.exe"
         ],
         "aliases": [
@@ -161,11 +161,11 @@
           "Sheet AZ.exe"
         ],
         "launchPaths": [
+          "%ProgramFiles%\\AZ\\Sheet-AZ\\Sheet-AZ.exe",
           "%ProgramFiles%\\Sheet-AZ\\Sheet-AZ.exe",
           "%ProgramFiles%\\AZ Applications\\Sheet-AZ\\Sheet-AZ.exe",
           "%LocalAppData%\\AZ Applications\\Sheet-AZ\\Sheet-AZ.exe",
           "%LocalAppData%\\Programs\\Sheet-AZ\\Sheet-AZ.exe",
-          "%ProgramFiles%\\AZ\\Sheet-AZ\\Sheet-AZ.exe",
           "%AppData%\\AZ\\Sheet-AZ\\Sheet-AZ.exe"
         ]
       }
@@ -187,9 +187,9 @@
       "homepageUrl": "https://github.com/AZ1189/AZ-Chat",
       "installCheck": {
         "paths": [
+          "%ProgramFiles%\\AZ\\AZ-Chat\\AZ-Chat.exe",
           "%LocalAppData%\\AZ Applications\\AZ-Chat\\AZ-Chat.exe",
           "%ProgramFiles%\\AZ Applications\\AZ-Chat\\AZ-Chat.exe",
-          "%ProgramFiles%\\AZ\\AZ-Chat\\AZ-Chat.exe",
           "%LocalAppData%\\Programs\\AZ-Chat\\AZ-Chat.exe",
           "%AppData%\\AZ\\AZ-Chat\\AZ-Chat.exe"
         ],
@@ -202,9 +202,9 @@
           "AZ Chat.exe"
         ],
         "launchPaths": [
+          "%ProgramFiles%\\AZ\\AZ-Chat\\AZ-Chat.exe",
           "%LocalAppData%\\AZ Applications\\AZ-Chat\\AZ-Chat.exe",
           "%ProgramFiles%\\AZ Applications\\AZ-Chat\\AZ-Chat.exe",
-          "%ProgramFiles%\\AZ\\AZ-Chat\\AZ-Chat.exe",
           "%LocalAppData%\\Programs\\AZ-Chat\\AZ-Chat.exe",
           "%AppData%\\AZ\\AZ-Chat\\AZ-Chat.exe"
         ]
@@ -227,10 +227,10 @@
       "homepageUrl": "https://github.com/AZ1189/AZ-Ippy",
       "installCheck": {
         "paths": [
+          "%ProgramFiles%\\AZ\\AZ-Ippy\\AZ-Ippy.exe",
           "%LocalAppData%\\AZ-Ippy\\AZ-Ippy.exe",
           "%LocalAppData%\\AZ Applications\\AZ-Ippy\\AZ-Ippy.exe",
           "%ProgramFiles%\\AZ Applications\\AZ-Ippy\\AZ-Ippy.exe",
-          "%ProgramFiles%\\AZ\\AZ-Ippy\\AZ-Ippy.exe",
           "%LocalAppData%\\Programs\\AZ-Ippy\\AZ-Ippy.exe",
           "%AppData%\\AZ\\AZ-Ippy\\AZ-Ippy.exe"
         ],
@@ -243,10 +243,10 @@
           "AZ Ippy.exe"
         ],
         "launchPaths": [
+          "%ProgramFiles%\\AZ\\AZ-Ippy\\AZ-Ippy.exe",
           "%LocalAppData%\\AZ-Ippy\\AZ-Ippy.exe",
           "%LocalAppData%\\AZ Applications\\AZ-Ippy\\AZ-Ippy.exe",
           "%ProgramFiles%\\AZ Applications\\AZ-Ippy\\AZ-Ippy.exe",
-          "%ProgramFiles%\\AZ\\AZ-Ippy\\AZ-Ippy.exe",
           "%LocalAppData%\\Programs\\AZ-Ippy\\AZ-Ippy.exe",
           "%AppData%\\AZ\\AZ-Ippy\\AZ-Ippy.exe"
         ]
@@ -269,11 +269,11 @@
       "homepageUrl": "https://github.com/AZ1189/AZ-Beam",
       "installCheck": {
         "paths": [
+          "%ProgramFiles%\\AZ\\AZ Beam\\AZ Beam.exe",
           "%LocalAppData%\\AZ Applications\\AZ Beam\\AZ Beam.exe",
           "%ProgramFiles%\\AZ Applications\\AZ Beam\\AZ Beam.exe",
           "%LocalAppData%\\AZ Applications\\AZ-Ippy Beam\\AZ Beam.exe",
           "%ProgramFiles%\\AZ Applications\\AZ-Ippy Beam\\AZ Beam.exe",
-          "%ProgramFiles%\\AZ\\AZ Beam\\AZ Beam.exe",
           "%LocalAppData%\\Programs\\AZ Beam\\AZ Beam.exe",
           "%AppData%\\AZ\\AZ Beam\\AZ Beam.exe"
         ],
@@ -286,11 +286,11 @@
           "AZ-Ippy Beam.exe"
         ],
         "launchPaths": [
+          "%ProgramFiles%\\AZ\\AZ Beam\\AZ Beam.exe",
           "%LocalAppData%\\AZ Applications\\AZ Beam\\AZ Beam.exe",
           "%ProgramFiles%\\AZ Applications\\AZ Beam\\AZ Beam.exe",
           "%LocalAppData%\\AZ Applications\\AZ-Ippy Beam\\AZ Beam.exe",
           "%ProgramFiles%\\AZ Applications\\AZ-Ippy Beam\\AZ Beam.exe",
-          "%ProgramFiles%\\AZ\\AZ Beam\\AZ Beam.exe",
           "%LocalAppData%\\Programs\\AZ Beam\\AZ Beam.exe",
           "%AppData%\\AZ\\AZ Beam\\AZ Beam.exe"
         ]
@@ -313,11 +313,11 @@
       "homepageUrl": "https://github.com/AZ1189/AZ-Recovery-Plus",
       "installCheck": {
         "paths": [
+          "%ProgramFiles%\\AZ\\AZ Recovery+\\AZ-Recover.exe",
           "%ProgramFiles%\\AZ Applications\\AZ-Recover\\AZ-Recover.exe",
           "%LocalAppData%\\AZ Applications\\AZ-Recover\\AZ-Recover.exe",
           "%ProgramFiles%\\AZ Applications\\AZ Recovery+\\AZ-Recover.exe",
           "%LocalAppData%\\AZ Applications\\AZ Recovery+\\AZ-Recover.exe",
-          "%ProgramFiles%\\AZ\\AZ Recovery+\\AZ-Recover.exe",
           "%AppData%\\AZ\\AZ Recovery+\\AZ-Recover.exe"
         ],
         "aliases": [
@@ -331,11 +331,11 @@
           "AZ Recovery Plus.exe"
         ],
         "launchPaths": [
+          "%ProgramFiles%\\AZ\\AZ Recovery+\\AZ-Recover.exe",
           "%ProgramFiles%\\AZ Applications\\AZ-Recover\\AZ-Recover.exe",
           "%LocalAppData%\\AZ Applications\\AZ-Recover\\AZ-Recover.exe",
           "%ProgramFiles%\\AZ Applications\\AZ Recovery+\\AZ-Recover.exe",
           "%LocalAppData%\\AZ Applications\\AZ Recovery+\\AZ-Recover.exe",
-          "%ProgramFiles%\\AZ\\AZ Recovery+\\AZ-Recover.exe",
           "%AppData%\\AZ\\AZ Recovery+\\AZ-Recover.exe"
         ]
       }
