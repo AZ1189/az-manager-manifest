@@ -10,13 +10,13 @@
       "category": "Launcher",
       "tagline": "Launcher and installer manager for AZ apps.",
       "description": "Launcher and installer manager for AZ apps.",
-      "version": "0.2.7",
+      "version": "0.2.8",
       "image": "assets/az-manager.png",
       "accent": "#f6a400",
       "installerUrl": "https://github.com/AZ1189/AZ-Manager/releases/latest/download/AZ-Manager-Setup.exe",
       "installerFileName": "AZ-Manager-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 0.2.7. Adds app launching, tray/dock residency, and configurable update automation.",
+      "releaseNotes": "Version 0.2.8. Fixes app launching, adds green Open and Refresh controls, improves installed/update refresh, and embeds AZ icon resources.",
       "requiredTier": "free",
       "homepageUrl": "https://github.com/AZ1189/AZ-Manager",
       "installCheck": {
@@ -33,6 +33,14 @@
         ],
         "exes": [
           "AZ Manager.exe"
+        ],
+        "launchPaths": [
+          "%ProgramFiles%\\AZ Manager\\AZ Manager.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ Manager\\AZ Manager.exe",
+          "%LocalAppData%\\Programs\\AZ Manager\\AZ Manager.exe",
+          "%LocalAppData%\\AZ Applications\\AZ Manager\\AZ Manager.exe",
+          "%ProgramFiles%\\AZ\\AZ Manager\\AZ Manager.exe",
+          "%AppData%\\AZ\\Manager\\AZ Manager.exe"
         ]
       }
     },
@@ -42,13 +50,13 @@
       "category": "Conversion",
       "tagline": "Local bulk file conversion.",
       "description": "Local bulk file conversion.",
-      "version": "1.0.5",
+      "version": "1.0.6",
       "image": "assets/az-convert.png",
       "accent": "#ff8a22",
-      "installerUrl": "https://github.com/AZ1189/AZ-Convert/releases/latest/download/AZ-Convert-Setup-1.0.5.exe",
-      "installerFileName": "AZ-Convert-Setup-1.0.5.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Convert/releases/latest/download/AZ-Convert-Setup-1.0.6.exe",
+      "installerFileName": "AZ-Convert-Setup-1.0.6.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 1.0.5. Refreshes AZ installer branding.",
+      "releaseNotes": "Version 1.0.6. Improves Apple/iWork conversion fallback and refreshes AZ icons and installer branding.",
       "requiredTier": "free",
       "homepageUrl": "https://github.com/AZ1189/AZ-Convert",
       "installCheck": {
@@ -67,6 +75,14 @@
         "exes": [
           "AZ-Convert.exe",
           "AZ Convert.exe"
+        ],
+        "launchPaths": [
+          "%ProgramFiles%\\AZ-Convert\\AZ-Convert.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ-Convert\\AZ-Convert.exe",
+          "%LocalAppData%\\AZ Applications\\AZ-Convert\\AZ-Convert.exe",
+          "%LocalAppData%\\Programs\\AZ-Convert\\AZ-Convert.exe",
+          "%ProgramFiles%\\AZ\\AZ-Convert\\AZ-Convert.exe",
+          "%AppData%\\AZ\\AZ-Convert\\AZ-Convert.exe"
         ]
       }
     },
@@ -76,13 +92,13 @@
       "category": "Documents",
       "tagline": "Full modern AZ word processor.",
       "description": "Docu-AZ is the AZ document editor for writing, formatting, opening DOCX files and exporting clean documents to DOCX, PDF, HTML and plain text.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "image": "assets/docu-az.png",
       "accent": "#1f9bff",
-      "installerUrl": "https://github.com/AZ1189/Docu-AZ/releases/latest/download/Docu-AZ-Setup-0.1.0.exe",
-      "installerFileName": "Docu-AZ-Setup-0.1.0.exe",
+      "installerUrl": "https://github.com/AZ1189/Docu-AZ/releases/latest/download/Docu-AZ-Setup-0.1.1.exe",
+      "installerFileName": "Docu-AZ-Setup-0.1.1.exe",
       "installerType": "exe",
-      "releaseNotes": "Initial Docu-AZ app shell with AZ ribbon styling, page editor, local save/open, DOCX import/export foundation and PDF/HTML/TXT export.",
+      "releaseNotes": "Version 0.1.1. Adds document editing improvements and refreshes AZ icons and installer branding.",
       "requiredTier": "free",
       "homepageUrl": "https://github.com/AZ1189/Docu-AZ",
       "installCheck": {
@@ -101,6 +117,56 @@
         "exes": [
           "Docu-AZ.exe",
           "Docu AZ.exe"
+        ],
+        "launchPaths": [
+          "%ProgramFiles%\\Docu-AZ\\Docu-AZ.exe",
+          "%ProgramFiles%\\AZ Applications\\Docu-AZ\\Docu-AZ.exe",
+          "%LocalAppData%\\AZ Applications\\Docu-AZ\\Docu-AZ.exe",
+          "%LocalAppData%\\Programs\\Docu-AZ\\Docu-AZ.exe",
+          "%ProgramFiles%\\AZ\\Docu-AZ\\Docu-AZ.exe",
+          "%AppData%\\AZ\\Docu-AZ\\Docu-AZ.exe"
+        ]
+      }
+    },
+    {
+      "id": "sheet-az",
+      "name": "Sheet-AZ",
+      "category": "Documents",
+      "tagline": "Full modern AZ spreadsheet app.",
+      "description": "Sheet-AZ is the AZ spreadsheet editor for workbooks, Excel files, formulas, formatting, charts and clean exports to XLSX, CSV, TSV, JSON, HTML and PDF.",
+      "version": "0.1.0",
+      "image": "assets/sheet-az.png",
+      "accent": "#167c3c",
+      "installerUrl": "https://github.com/AZ1189/Sheet-AZ/releases/latest/download/Sheet-AZ-Setup-0.1.0.exe",
+      "installerFileName": "Sheet-AZ-Setup-0.1.0.exe",
+      "installerType": "exe",
+      "releaseNotes": "Initial Sheet-AZ app shell with AZ ribbon styling, workbook grid, local save/open, Excel/CSV import/export, formulas, formatting, sheets and charts.",
+      "requiredTier": "free",
+      "homepageUrl": "https://github.com/AZ1189/Sheet-AZ",
+      "installCheck": {
+        "paths": [
+          "%ProgramFiles%\\Sheet-AZ\\Sheet-AZ.exe",
+          "%ProgramFiles%\\AZ Applications\\Sheet-AZ\\Sheet-AZ.exe",
+          "%LocalAppData%\\AZ Applications\\Sheet-AZ\\Sheet-AZ.exe",
+          "%LocalAppData%\\Programs\\Sheet-AZ\\Sheet-AZ.exe",
+          "%ProgramFiles%\\AZ\\Sheet-AZ\\Sheet-AZ.exe",
+          "%AppData%\\AZ\\Sheet-AZ\\Sheet-AZ.exe"
+        ],
+        "aliases": [
+          "Sheet-AZ",
+          "Sheet AZ"
+        ],
+        "exes": [
+          "Sheet-AZ.exe",
+          "Sheet AZ.exe"
+        ],
+        "launchPaths": [
+          "%ProgramFiles%\\Sheet-AZ\\Sheet-AZ.exe",
+          "%ProgramFiles%\\AZ Applications\\Sheet-AZ\\Sheet-AZ.exe",
+          "%LocalAppData%\\AZ Applications\\Sheet-AZ\\Sheet-AZ.exe",
+          "%LocalAppData%\\Programs\\Sheet-AZ\\Sheet-AZ.exe",
+          "%ProgramFiles%\\AZ\\Sheet-AZ\\Sheet-AZ.exe",
+          "%AppData%\\AZ\\Sheet-AZ\\Sheet-AZ.exe"
         ]
       }
     },
@@ -110,13 +176,13 @@
       "category": "Messaging",
       "tagline": "Secure chat app.",
       "description": "Secure chat app.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "image": "assets/az-chat.png",
       "accent": "#10d8cf",
       "installerUrl": "https://github.com/AZ1189/AZ-Chat/releases/latest/download/AZ-Chat-Setup.exe",
       "installerFileName": "AZ-Chat-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 1.0.1. Refreshes AZ installer branding.",
+      "releaseNotes": "Version 1.0.2. Refreshes AZ icons, installer theme and launch detection metadata.",
       "requiredTier": "free",
       "homepageUrl": "https://github.com/AZ1189/AZ-Chat",
       "installCheck": {
@@ -134,6 +200,13 @@
         "exes": [
           "AZ-Chat.exe",
           "AZ Chat.exe"
+        ],
+        "launchPaths": [
+          "%LocalAppData%\\AZ Applications\\AZ-Chat\\AZ-Chat.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ-Chat\\AZ-Chat.exe",
+          "%ProgramFiles%\\AZ\\AZ-Chat\\AZ-Chat.exe",
+          "%LocalAppData%\\Programs\\AZ-Chat\\AZ-Chat.exe",
+          "%AppData%\\AZ\\AZ-Chat\\AZ-Chat.exe"
         ]
       }
     },
@@ -143,13 +216,13 @@
       "category": "Compression",
       "tagline": "Archive and compression app.",
       "description": "Archive and compression app.",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "image": "assets/az-ippy.png",
       "accent": "#ff3048",
       "installerUrl": "https://github.com/AZ1189/AZ-Ippy/releases/latest/download/AZ-Ippy-Setup.exe",
       "installerFileName": "AZ-Ippy-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 1.1.1. Refreshes AZ installer branding.",
+      "releaseNotes": "Version 1.1.2. Refreshes AZ icons, installer theme and launch detection metadata.",
       "requiredTier": "free",
       "homepageUrl": "https://github.com/AZ1189/AZ-Ippy",
       "installCheck": {
@@ -168,6 +241,14 @@
         "exes": [
           "AZ-Ippy.exe",
           "AZ Ippy.exe"
+        ],
+        "launchPaths": [
+          "%LocalAppData%\\AZ-Ippy\\AZ-Ippy.exe",
+          "%LocalAppData%\\AZ Applications\\AZ-Ippy\\AZ-Ippy.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ-Ippy\\AZ-Ippy.exe",
+          "%ProgramFiles%\\AZ\\AZ-Ippy\\AZ-Ippy.exe",
+          "%LocalAppData%\\Programs\\AZ-Ippy\\AZ-Ippy.exe",
+          "%AppData%\\AZ\\AZ-Ippy\\AZ-Ippy.exe"
         ]
       }
     },
@@ -177,13 +258,13 @@
       "category": "Transfer",
       "tagline": "Secure AZip transfer.",
       "description": "Secure AZip transfer.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "image": "assets/az-beam.png",
       "accent": "#1d75ff",
       "installerUrl": "https://github.com/AZ1189/AZ-Beam/releases/latest/download/AZ-Beam-Setup.exe",
       "installerFileName": "AZ-Beam-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 1.0.1. Refreshes AZ installer branding.",
+      "releaseNotes": "Version 1.0.2. Refreshes AZ icons, installer theme and launch detection metadata.",
       "requiredTier": "free",
       "homepageUrl": "https://github.com/AZ1189/AZ-Beam",
       "installCheck": {
@@ -203,6 +284,15 @@
         "exes": [
           "AZ Beam.exe",
           "AZ-Ippy Beam.exe"
+        ],
+        "launchPaths": [
+          "%LocalAppData%\\AZ Applications\\AZ Beam\\AZ Beam.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ Beam\\AZ Beam.exe",
+          "%LocalAppData%\\AZ Applications\\AZ-Ippy Beam\\AZ Beam.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ-Ippy Beam\\AZ Beam.exe",
+          "%ProgramFiles%\\AZ\\AZ Beam\\AZ Beam.exe",
+          "%LocalAppData%\\Programs\\AZ Beam\\AZ Beam.exe",
+          "%AppData%\\AZ\\AZ Beam\\AZ Beam.exe"
         ]
       }
     },
@@ -212,13 +302,13 @@
       "category": "Recovery",
       "tagline": "File recovery app.",
       "description": "File recovery app.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "image": "assets/az-recovery.png",
       "accent": "#39d34a",
       "installerUrl": "https://github.com/AZ1189/AZ-Recovery-Plus/releases/latest/download/AZ-Recovery-Plus-Setup.exe",
       "installerFileName": "AZ-Recovery-Plus-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 1.0.1. Refreshes AZ installer branding.",
+      "releaseNotes": "Version 1.0.2. Refreshes AZ icons, installer theme and launch detection metadata.",
       "requiredTier": "free",
       "homepageUrl": "https://github.com/AZ1189/AZ-Recovery-Plus",
       "installCheck": {
@@ -227,8 +317,8 @@
           "%LocalAppData%\\AZ Applications\\AZ-Recover\\AZ-Recover.exe",
           "%ProgramFiles%\\AZ Applications\\AZ Recovery+\\AZ-Recover.exe",
           "%LocalAppData%\\AZ Applications\\AZ Recovery+\\AZ-Recover.exe",
-          "%ProgramFiles%\\AZ\\AZ Recovery+\\AZ Recovery+.exe",
-          "%AppData%\\AZ\\AZ Recovery+\\AZ Recovery+.exe"
+          "%ProgramFiles%\\AZ\\AZ Recovery+\\AZ-Recover.exe",
+          "%AppData%\\AZ\\AZ Recovery+\\AZ-Recover.exe"
         ],
         "aliases": [
           "AZ Recovery+",
@@ -239,6 +329,14 @@
           "AZ-Recover.exe",
           "AZ Recovery+.exe",
           "AZ Recovery Plus.exe"
+        ],
+        "launchPaths": [
+          "%ProgramFiles%\\AZ Applications\\AZ-Recover\\AZ-Recover.exe",
+          "%LocalAppData%\\AZ Applications\\AZ-Recover\\AZ-Recover.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ Recovery+\\AZ-Recover.exe",
+          "%LocalAppData%\\AZ Applications\\AZ Recovery+\\AZ-Recover.exe",
+          "%ProgramFiles%\\AZ\\AZ Recovery+\\AZ-Recover.exe",
+          "%AppData%\\AZ\\AZ Recovery+\\AZ-Recover.exe"
         ]
       }
     }
