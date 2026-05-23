@@ -10,13 +10,13 @@
       "category": "Launcher",
       "tagline": "Launcher and installer manager for AZ apps.",
       "description": "Launcher and installer manager for AZ apps.",
-      "version": "0.2.6",
+      "version": "0.2.7",
       "image": "assets/az-manager.png",
       "accent": "#f6a400",
       "installerUrl": "https://github.com/AZ1189/AZ-Manager/releases/latest/download/AZ-Manager-Setup.exe",
       "installerFileName": "AZ-Manager-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 0.2.6. Stops certificate install prompts from blocking app installers.",
+      "releaseNotes": "Version 0.2.7. Adds app launching, tray/dock residency, and configurable update automation.",
       "requiredTier": "free",
       "homepageUrl": "https://github.com/AZ1189/AZ-Manager",
       "installCheck": {
@@ -67,6 +67,40 @@
         "exes": [
           "AZ-Convert.exe",
           "AZ Convert.exe"
+        ]
+      }
+    },
+    {
+      "id": "docu-az",
+      "name": "Docu-AZ",
+      "category": "Documents",
+      "tagline": "Full modern AZ word processor.",
+      "description": "Docu-AZ is the AZ document editor for writing, formatting, opening DOCX files and exporting clean documents to DOCX, PDF, HTML and plain text.",
+      "version": "0.1.0",
+      "image": "assets/docu-az.png",
+      "accent": "#1f9bff",
+      "installerUrl": "https://github.com/AZ1189/Docu-AZ/releases/latest/download/Docu-AZ-Setup-0.1.0.exe",
+      "installerFileName": "Docu-AZ-Setup-0.1.0.exe",
+      "installerType": "exe",
+      "releaseNotes": "Initial Docu-AZ app shell with AZ ribbon styling, page editor, local save/open, DOCX import/export foundation and PDF/HTML/TXT export.",
+      "requiredTier": "free",
+      "homepageUrl": "https://github.com/AZ1189/Docu-AZ",
+      "installCheck": {
+        "paths": [
+          "%ProgramFiles%\\Docu-AZ\\Docu-AZ.exe",
+          "%ProgramFiles%\\AZ Applications\\Docu-AZ\\Docu-AZ.exe",
+          "%LocalAppData%\\AZ Applications\\Docu-AZ\\Docu-AZ.exe",
+          "%LocalAppData%\\Programs\\Docu-AZ\\Docu-AZ.exe",
+          "%ProgramFiles%\\AZ\\Docu-AZ\\Docu-AZ.exe",
+          "%AppData%\\AZ\\Docu-AZ\\Docu-AZ.exe"
+        ],
+        "aliases": [
+          "Docu-AZ",
+          "Docu AZ"
+        ],
+        "exes": [
+          "Docu-AZ.exe",
+          "Docu AZ.exe"
         ]
       }
     },
