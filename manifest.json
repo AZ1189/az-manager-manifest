@@ -182,7 +182,7 @@
       "installerUrl": "https://github.com/AZ1189/AZ-Chat/releases/latest/download/AZ-Chat-Setup.exe",
       "installerFileName": "AZ-Chat-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 1.0.5. Fixes the chat layout and menu order, adds public internet IP setup with UPnP and port-forwarding guidance, and includes encrypted small-file transfers with AZ Beam handoff.",
+      "releaseNotes": "Version 1.0.5. Fixes the chat layout and menu order, makes chat links and Show IP internet-ready with UPnP and port-forwarding guidance, and includes encrypted small-file transfers with AZ Beam handoff.",
       "requiredTier": "free",
       "homepageUrl": "https://github.com/AZ1189/AZ-Chat",
       "installCheck": {
