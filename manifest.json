@@ -10,15 +10,14 @@
       "category": "Launcher",
       "tagline": "Manager and installer for AZ apps.",
       "description": "Install, update, open and remove AZ products from one place.",
-      "version": "0.3.17",
+      "version": "1.0.0",
       "image": "assets/az-manager.png",
       "icon": "assets/az-manager-icon.png",
       "accent": "#f6a400",
-      "installerUrl": "https://github.com/AZ1189/AZ-Manager/releases/download/v1/AZ-Manager-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Manager/releases/download/v1.0.0/AZ-Manager-Setup.exe",
       "installerFileName": "AZ-Manager-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 0.3.17. Adds a Reinstall action for already-installed apps so the public v1 installer reset can be downloaded and run without creating false update prompts.",
-      "requiredTier": "free",
+      "releaseNotes": "",
       "homepageUrl": "https://github.com/AZ1189/AZ-Manager",
       "installCheck": {
         "paths": [
@@ -44,8 +43,8 @@
           "%AppData%\\AZ\\Manager\\AZ Manager.exe"
         ]
       },
-      "releaseTag": "v1",
-      "releaseVersion": "1"
+      "displayVersion": "1.0.0",
+      "buildVersion": "1.0.0"
     },
     {
       "id": "az-convert",
@@ -53,15 +52,14 @@
       "category": "Conversion",
       "tagline": "Bulk file conversion.",
       "description": "Convert groups of local files with the AZ interface.",
-      "version": "1.0.11",
+      "version": "1.0.0",
       "image": "assets/az-convert.png",
       "icon": "assets/az-convert-icon.png",
       "accent": "#b8f018",
-      "installerUrl": "https://github.com/AZ1189/AZ-Convert/releases/download/v1/AZ-Convert-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Convert/releases/download/v1.0.0/AZ-Convert-Setup.exe",
       "installerFileName": "AZ-Convert-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Public installer release v1. Source code remains private; the public GitHub repo carries installers only.",
-      "requiredTier": "free",
+      "releaseNotes": "",
       "homepageUrl": "https://github.com/AZ1189/AZ-Convert",
       "installCheck": {
         "paths": [
@@ -89,8 +87,8 @@
           "%AppData%\\AZ\\AZ-Convert\\AZ-Convert.exe"
         ]
       },
-      "releaseTag": "v1",
-      "releaseVersion": "1"
+      "displayVersion": "1.0.0",
+      "buildVersion": "1.0.0"
     },
     {
       "id": "docu-az",
@@ -98,15 +96,14 @@
       "category": "Documents",
       "tagline": "Word documents and PDF editing.",
       "description": "Create, edit and export Word documents and editable PDFs.",
-      "version": "0.1.24",
+      "version": "1.0.0",
       "image": "assets/docu-az.png",
       "icon": "assets/docu-az-icon.png",
       "accent": "#1f9bff",
-      "installerUrl": "https://github.com/AZ1189/Docu-AZ/releases/download/v1/Docu-AZ-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/Docu-AZ/releases/download/v1.0.0/Docu-AZ-Setup.exe",
       "installerFileName": "Docu-AZ-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Public installer release v1. Source code remains private; the public GitHub repo carries installers only.",
-      "requiredTier": "free",
+      "releaseNotes": "",
       "homepageUrl": "https://github.com/AZ1189/Docu-AZ",
       "installCheck": {
         "paths": [
@@ -134,8 +131,8 @@
           "%AppData%\\AZ\\Docu-AZ\\Docu-AZ.exe"
         ]
       },
-      "releaseTag": "v1",
-      "releaseVersion": "1"
+      "displayVersion": "1.0.0",
+      "buildVersion": "1.0.0"
     },
     {
       "id": "sheet-az",
@@ -143,15 +140,14 @@
       "category": "Documents",
       "tagline": "Spreadsheets and Excel files.",
       "description": "Open, edit and export spreadsheets and Excel workbooks.",
-      "version": "0.1.13",
+      "version": "1.0.0",
       "image": "assets/sheet-az.png",
       "icon": "assets/sheet-az-icon.png",
       "accent": "#167c3c",
-      "installerUrl": "https://github.com/AZ1189/Sheet-AZ/releases/download/v1/Sheet-AZ-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/Sheet-AZ/releases/download/v1.0.0/Sheet-AZ-Setup.exe",
       "installerFileName": "Sheet-AZ-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Public installer release v1. Source code remains private; the public GitHub repo carries installers only.",
-      "requiredTier": "free",
+      "releaseNotes": "",
       "homepageUrl": "https://github.com/AZ1189/Sheet-AZ",
       "installCheck": {
         "paths": [
@@ -179,8 +175,8 @@
           "%AppData%\\AZ\\Sheet-AZ\\Sheet-AZ.exe"
         ]
       },
-      "releaseTag": "v1",
-      "releaseVersion": "1"
+      "displayVersion": "1.0.0",
+      "buildVersion": "1.0.0"
     },
     {
       "id": "az-chat",
@@ -188,15 +184,14 @@
       "category": "Messaging",
       "tagline": "Private AZ messaging.",
       "description": "Send private messages, groups and small files.",
-      "version": "1.0.11",
+      "version": "1.0.0",
       "image": "assets/az-chat.png",
       "icon": "assets/az-chat-icon.png",
       "accent": "#10d8cf",
-      "installerUrl": "https://github.com/AZ1189/AZ-Chat/releases/download/v1/AZ-Chat-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Chat/releases/download/v1.0.0/AZ-Chat-Setup.exe",
       "installerFileName": "AZ-Chat-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Public installer release v1. Source code remains private; the public GitHub repo carries installers only.",
-      "requiredTier": "free",
+      "releaseNotes": "",
       "homepageUrl": "https://github.com/AZ1189/AZ-Chat",
       "installCheck": {
         "paths": [
@@ -222,8 +217,8 @@
           "%AppData%\\AZ\\AZ-Chat\\AZ-Chat.exe"
         ]
       },
-      "releaseTag": "v1",
-      "releaseVersion": "1"
+      "displayVersion": "1.0.0",
+      "buildVersion": "1.0.0"
     },
     {
       "id": "az-ippy",
@@ -231,15 +226,14 @@
       "category": "Compression",
       "tagline": "Archive compression and extraction.",
       "description": "Browse, compress, extract, verify and convert archives.",
-      "version": "1.1.12",
+      "version": "1.0.0",
       "image": "assets/az-ippy.png",
       "icon": "assets/az-ippy-icon.png",
       "accent": "#ff3048",
-      "installerUrl": "https://github.com/AZ1189/AZ-Ippy/releases/download/v1/AZ-Ippy-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Ippy/releases/download/v1.0.0/AZ-Ippy-Setup.exe",
       "installerFileName": "AZ-Ippy-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Public installer release v1. Source code remains private; the public GitHub repo carries installers only.",
-      "requiredTier": "free",
+      "releaseNotes": "",
       "homepageUrl": "https://github.com/AZ1189/AZ-Ippy",
       "installCheck": {
         "paths": [
@@ -267,8 +261,8 @@
           "%AppData%\\AZ\\AZ-Ippy\\AZ-Ippy.exe"
         ]
       },
-      "releaseTag": "v1",
-      "releaseVersion": "1"
+      "displayVersion": "1.0.0",
+      "buildVersion": "1.0.0"
     },
     {
       "id": "az-beam",
@@ -276,15 +270,14 @@
       "category": "Transfer",
       "tagline": "Secure AZip file transfer.",
       "description": "Send AZip packages securely between devices.",
-      "version": "1.0.5",
+      "version": "1.0.0",
       "image": "assets/az-beam.png",
       "icon": "assets/az-beam-icon.png",
       "accent": "#1d75ff",
-      "installerUrl": "https://github.com/AZ1189/AZ-Beam/releases/download/v1/AZ-Beam-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Beam/releases/download/v1.0.0/AZ-Beam-Setup.exe",
       "installerFileName": "AZ-Beam-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Public installer release v1. Source code remains private; the public GitHub repo carries installers only.",
-      "requiredTier": "free",
+      "releaseNotes": "",
       "homepageUrl": "https://github.com/AZ1189/AZ-Beam",
       "installCheck": {
         "paths": [
@@ -314,8 +307,8 @@
           "%AppData%\\AZ\\AZ Beam\\AZ Beam.exe"
         ]
       },
-      "releaseTag": "v1",
-      "releaseVersion": "1"
+      "displayVersion": "1.0.0",
+      "buildVersion": "1.0.0"
     },
     {
       "id": "az-recovery-plus",
@@ -323,15 +316,14 @@
       "category": "Recovery",
       "tagline": "File recovery.",
       "description": "Recover deleted files with a focused AZ recovery tool.",
-      "version": "1.0.5",
+      "version": "1.0.0",
       "image": "assets/az-recovery.png",
       "icon": "assets/az-recovery-icon.png",
       "accent": "#39d34a",
-      "installerUrl": "https://github.com/AZ1189/AZ-Recovery-Plus/releases/download/v1/AZ-Recovery-Plus-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Recovery-Plus/releases/download/v1.0.0/AZ-Recovery-Plus-Setup.exe",
       "installerFileName": "AZ-Recovery-Plus-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Public installer release v1. Source code remains private; the public GitHub repo carries installers only.",
-      "requiredTier": "free",
+      "releaseNotes": "",
       "homepageUrl": "https://github.com/AZ1189/AZ-Recovery-Plus",
       "installCheck": {
         "paths": [
@@ -361,8 +353,8 @@
           "%AppData%\\AZ\\AZ Recovery+\\AZ-Recover.exe"
         ]
       },
-      "releaseTag": "v1",
-      "releaseVersion": "1"
+      "displayVersion": "1.0.0",
+      "buildVersion": "1.0.0"
     }
   ]
 }
