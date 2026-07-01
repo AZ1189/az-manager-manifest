@@ -10,14 +10,14 @@
       "category": "Launcher",
       "tagline": "Manager and installer for AZ apps.",
       "description": "Install, update, open and remove AZ products from one place.",
-      "version": "0.3.16",
+      "version": "0.3.17",
       "image": "assets/az-manager.png",
       "icon": "assets/az-manager-icon.png",
       "accent": "#f6a400",
       "installerUrl": "https://github.com/AZ1189/AZ-Manager/releases/download/v1/AZ-Manager-Setup.exe",
       "installerFileName": "AZ-Manager-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Public installer release v1. Source code remains private; the public GitHub repo carries installers only.",
+      "releaseNotes": "Version 0.3.17. Adds a Reinstall action for already-installed apps so the public v1 installer reset can be downloaded and run without creating false update prompts.",
       "requiredTier": "free",
       "homepageUrl": "https://github.com/AZ1189/AZ-Manager",
       "installCheck": {
@@ -43,7 +43,9 @@
           "%LocalAppData%\\AZ Applications\\AZ Manager\\AZ Manager.exe",
           "%AppData%\\AZ\\Manager\\AZ Manager.exe"
         ]
-      }
+      },
+      "releaseTag": "v1",
+      "releaseVersion": "1"
     },
     {
       "id": "az-convert",
@@ -86,7 +88,9 @@
           "%LocalAppData%\\Programs\\AZ-Convert\\AZ-Convert.exe",
           "%AppData%\\AZ\\AZ-Convert\\AZ-Convert.exe"
         ]
-      }
+      },
+      "releaseTag": "v1",
+      "releaseVersion": "1"
     },
     {
       "id": "docu-az",
@@ -129,7 +133,9 @@
           "%LocalAppData%\\Programs\\Docu-AZ\\Docu-AZ.exe",
           "%AppData%\\AZ\\Docu-AZ\\Docu-AZ.exe"
         ]
-      }
+      },
+      "releaseTag": "v1",
+      "releaseVersion": "1"
     },
     {
       "id": "sheet-az",
@@ -172,7 +178,9 @@
           "%LocalAppData%\\Programs\\Sheet-AZ\\Sheet-AZ.exe",
           "%AppData%\\AZ\\Sheet-AZ\\Sheet-AZ.exe"
         ]
-      }
+      },
+      "releaseTag": "v1",
+      "releaseVersion": "1"
     },
     {
       "id": "az-chat",
@@ -213,7 +221,9 @@
           "%LocalAppData%\\Programs\\AZ-Chat\\AZ-Chat.exe",
           "%AppData%\\AZ\\AZ-Chat\\AZ-Chat.exe"
         ]
-      }
+      },
+      "releaseTag": "v1",
+      "releaseVersion": "1"
     },
     {
       "id": "az-ippy",
@@ -256,7 +266,9 @@
           "%LocalAppData%\\Programs\\AZ-Ippy\\AZ-Ippy.exe",
           "%AppData%\\AZ\\AZ-Ippy\\AZ-Ippy.exe"
         ]
-      }
+      },
+      "releaseTag": "v1",
+      "releaseVersion": "1"
     },
     {
       "id": "az-beam",
@@ -301,7 +313,9 @@
           "%LocalAppData%\\Programs\\AZ Beam\\AZ Beam.exe",
           "%AppData%\\AZ\\AZ Beam\\AZ Beam.exe"
         ]
-      }
+      },
+      "releaseTag": "v1",
+      "releaseVersion": "1"
     },
     {
       "id": "az-recovery-plus",
@@ -346,7 +360,9 @@
           "%LocalAppData%\\AZ Applications\\AZ Recovery+\\AZ-Recover.exe",
           "%AppData%\\AZ\\AZ Recovery+\\AZ-Recover.exe"
         ]
-      }
+      },
+      "releaseTag": "v1",
+      "releaseVersion": "1"
     }
   ]
 }
