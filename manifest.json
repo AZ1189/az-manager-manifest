@@ -96,14 +96,14 @@
       "category": "Documents",
       "tagline": "Word documents and PDF editing.",
       "description": "Create, edit and export Word documents and editable PDFs.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "image": "assets/docu-az.png",
       "icon": "assets/docu-az-icon.png",
       "accent": "#1f9bff",
-      "installerUrl": "https://github.com/AZ1189/Docu-AZ/releases/download/v1.0.2/Docu-AZ-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/Docu-AZ/releases/download/v1.0.3/Docu-AZ-Setup.exe",
       "installerFileName": "Docu-AZ-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "",
+      "releaseNotes": "Version 1.0.3. Fixes object and stamp formatting details. Date stamps now insert as plain document text instead of boxed objects, object outlines can be set to None, stored object appearance preserves hidden outlines, text boxes avoid forced scrollbars, and the Object Format ribbon outline controls have more room.",
       "homepageUrl": "https://github.com/AZ1189/Docu-AZ",
       "installCheck": {
         "paths": [
@@ -131,8 +131,8 @@
           "%AppData%\\AZ\\Docu-AZ\\Docu-AZ.exe"
         ]
       },
-      "displayVersion": "1.0.2",
-      "buildVersion": "1.0.2"
+      "displayVersion": "1.0.3",
+      "buildVersion": "1.0.3"
     },
     {
       "id": "sheet-az",
