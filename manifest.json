@@ -184,14 +184,14 @@
       "category": "Messaging",
       "tagline": "Private AZ messaging.",
       "description": "Send private messages, groups and small files.",
-      "version": "1.0.13",
+      "version": "1.0.14",
       "image": "assets/az-chat.png",
       "icon": "assets/az-chat-icon.png",
       "accent": "#10d8cf",
-      "installerUrl": "https://github.com/AZ1189/AZ-Chat/releases/download/v1.0.13/AZ-Chat-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Chat/releases/download/v1.0.14/AZ-Chat-Setup.exe",
       "installerFileName": "AZ-Chat-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 1.0.13. Reworks friends around AZ-only encoded internet handles. Handles now use Name@CODE, Add Friend can connect from a copied handle, profiles include locked username, bio, age, gender and status, Online/Offline/Busy/AFK states are supported, AFK is automatic after 5 minutes, and the app prepares a public endpoint with UPnP/public IP where possible. Removes LAN discovery and the bottom debug/activity pane.",
+      "releaseNotes": "Version 1.0.14. Fixes crash-prone profile/status handling, moves profile editing into a popup, keeps the main chat window cleaner, removes the tray pop-up path, and tightens AZ-only compact handles for direct internet friend requests.",
       "homepageUrl": "https://github.com/AZ1189/AZ-Chat",
       "installCheck": {
         "paths": [
@@ -217,8 +217,8 @@
           "%AppData%\\AZ\\AZ-Chat\\AZ-Chat.exe"
         ]
       },
-      "displayVersion": "1.0.13",
-      "buildVersion": "1.0.13"
+      "displayVersion": "1.0.14",
+      "buildVersion": "1.0.14"
     },
     {
       "id": "az-ippy",
