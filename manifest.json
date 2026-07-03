@@ -184,14 +184,14 @@
       "category": "Messaging",
       "tagline": "Private AZ messaging.",
       "description": "Send private messages, groups and small files.",
-      "version": "1.0.14",
+      "version": "1.0.15",
       "image": "assets/az-chat.png",
       "icon": "assets/az-chat-icon.png",
       "accent": "#10d8cf",
-      "installerUrl": "https://github.com/AZ1189/AZ-Chat/releases/download/v1.0.14/AZ-Chat-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Chat/releases/download/v1.0.15/AZ-Chat-Setup.exe",
       "installerFileName": "AZ-Chat-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 1.0.14. Fixes crash-prone profile/status handling, moves profile editing into a popup, keeps the main chat window cleaner, removes the tray pop-up path, and tightens AZ-only compact handles for direct internet friend requests.",
+      "releaseNotes": "Version 1.0.15. Adds crash logging and safer UI/background exception handling, adds a quiet tray icon with restore/settings/exit so AZ-Chat can stay online, simplifies Home, adds Calls and Settings tabs, saves AFK/audio/video/group-call preferences, removes the bottom status/debug bar, and shortens IPv4 AZ handles to 7-character username-derived address codes.",
       "homepageUrl": "https://github.com/AZ1189/AZ-Chat",
       "installCheck": {
         "paths": [
@@ -217,8 +217,8 @@
           "%AppData%\\AZ\\AZ-Chat\\AZ-Chat.exe"
         ]
       },
-      "displayVersion": "1.0.14",
-      "buildVersion": "1.0.14"
+      "displayVersion": "1.0.15",
+      "buildVersion": "1.0.15"
     },
     {
       "id": "az-ippy",
