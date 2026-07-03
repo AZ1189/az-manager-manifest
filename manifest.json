@@ -184,14 +184,14 @@
       "category": "Messaging",
       "tagline": "Private AZ messaging.",
       "description": "Send private messages, groups and small files.",
-      "version": "1.0.1",
+      "version": "1.0.12",
       "image": "assets/az-chat.png",
       "icon": "assets/az-chat-icon.png",
       "accent": "#10d8cf",
-      "installerUrl": "https://github.com/AZ1189/AZ-Chat/releases/download/v1.0.1/AZ-Chat-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Chat/releases/download/v1.0.12/AZ-Chat-Setup.exe",
       "installerFileName": "AZ-Chat-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "",
+      "releaseNotes": "Version 1.0.12. Adds serverless LAN presence, direct IP connect, public ID display/copy, profile/contact/log file opening, clipboard/startup invite handling, and listener restart after chats close.",
       "homepageUrl": "https://github.com/AZ1189/AZ-Chat",
       "installCheck": {
         "paths": [
@@ -217,8 +217,8 @@
           "%AppData%\\AZ\\AZ-Chat\\AZ-Chat.exe"
         ]
       },
-      "displayVersion": "1.0.1",
-      "buildVersion": "1.0.1"
+      "displayVersion": "1.0.12",
+      "buildVersion": "1.0.12"
     },
     {
       "id": "az-ippy",
