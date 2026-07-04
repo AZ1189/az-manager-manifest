@@ -316,12 +316,12 @@
       "category": "Browser",
       "tagline": "Lightweight AZ browser.",
       "description": "Browse with local profiles, low-RAM defaults, and unpacked Chrome extension support.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "image": "assets/az-net.png",
       "icon": "assets/az-net.png",
       "cardImage": "assets/az-net.png",
       "accent": "#19b8ff",
-      "installerUrl": "https://github.com/AZ1189/AZ-Net/releases/download/v0.1.1/AZ-Net-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Net/releases/download/v0.1.2/AZ-Net-Setup.exe",
       "installerFileName": "AZ-Net-Setup.exe",
       "installerType": "exe",
       "releaseNotes": "",
@@ -352,8 +352,8 @@
           "%AppData%\\AZ\\AZ-Net\\AZ-Net.exe"
         ]
       },
-      "displayVersion": "0.1.1",
-      "buildVersion": "0.1.1"
+      "displayVersion": "0.1.2",
+      "buildVersion": "0.1.2"
     },
     {
       "id": "az-recovery-plus",
