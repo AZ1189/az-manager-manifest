@@ -184,14 +184,14 @@
       "category": "Messaging",
       "tagline": "Private AZ messaging.",
       "description": "Send private messages, groups and small files.",
-      "version": "1.0.17",
+      "version": "1.0.18",
       "image": "assets/az-chat.png",
       "icon": "assets/az-chat-icon.png",
       "accent": "#10d8cf",
-      "installerUrl": "https://github.com/AZ1189/AZ-Chat/releases/download/v1.0.17/AZ-Chat-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Chat/releases/download/v1.0.18/AZ-Chat-Setup.exe",
       "installerFileName": "AZ-Chat-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 1.0.17. Rebuilds Profile with unlockable username lock, local profile password/login, profile picture, custom public display name, previous-name history, cleaner light mode, and encrypted direct voice-call invite/accept/decline handshakes.",
+      "releaseNotes": "Version 1.0.18. Adds contact profile viewing and contact deletion, fixes saved AZ handle connections by decoding the contact address when no cached endpoint exists, and adds clear connection timeouts for unreachable friends.",
       "homepageUrl": "https://github.com/AZ1189/AZ-Chat",
       "installCheck": {
         "paths": [
@@ -217,8 +217,8 @@
           "%AppData%\\AZ\\AZ-Chat\\AZ-Chat.exe"
         ]
       },
-      "displayVersion": "1.0.17",
-      "buildVersion": "1.0.17"
+      "displayVersion": "1.0.18",
+      "buildVersion": "1.0.18"
     },
     {
       "id": "az-ippy",
