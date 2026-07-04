@@ -319,6 +319,7 @@
       "version": "0.1.0",
       "image": "assets/az-net.png",
       "icon": "assets/az-net-icon.png",
+      "cardImage": "assets/az-net-wide.png",
       "accent": "#19b8ff",
       "installerUrl": "https://github.com/AZ1189/AZ-Net/releases/download/v0.1.0/AZ-Net-Setup.exe",
       "installerFileName": "AZ-Net-Setup.exe",
