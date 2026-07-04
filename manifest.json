@@ -311,6 +311,50 @@
       "buildVersion": "1.0.0"
     },
     {
+      "id": "az-net",
+      "name": "AZ-Net",
+      "category": "Browser",
+      "tagline": "Lightweight AZ browser.",
+      "description": "Browse with local profiles, low-RAM defaults, and unpacked Chrome extension support.",
+      "version": "0.1.0",
+      "image": "assets/az-net.png",
+      "icon": "assets/az-net-icon.png",
+      "accent": "#19b8ff",
+      "installerUrl": "https://github.com/AZ1189/AZ-Net/releases/download/v0.1.0/AZ-Net-Setup.exe",
+      "installerFileName": "AZ-Net-Setup.exe",
+      "installerType": "exe",
+      "releaseNotes": "Version 0.1.0. First AZ-Net release with tabbed browsing, local profiles, low-RAM defaults, and unpacked Chrome extension support.",
+      "homepageUrl": "https://github.com/AZ1189/AZ-Net",
+      "installCheck": {
+        "paths": [
+          "%ProgramFiles%\\AZ\\AZ-Net\\AZ-Net.exe",
+          "%ProgramFiles%\\AZ-Net\\AZ-Net.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ-Net\\AZ-Net.exe",
+          "%LocalAppData%\\AZ Applications\\AZ-Net\\AZ-Net.exe",
+          "%LocalAppData%\\Programs\\AZ-Net\\AZ-Net.exe",
+          "%AppData%\\AZ\\AZ-Net\\AZ-Net.exe"
+        ],
+        "aliases": [
+          "AZ-Net",
+          "AZ Net"
+        ],
+        "exes": [
+          "AZ-Net.exe",
+          "AZ Net.exe"
+        ],
+        "launchPaths": [
+          "%ProgramFiles%\\AZ\\AZ-Net\\AZ-Net.exe",
+          "%ProgramFiles%\\AZ-Net\\AZ-Net.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ-Net\\AZ-Net.exe",
+          "%LocalAppData%\\AZ Applications\\AZ-Net\\AZ-Net.exe",
+          "%LocalAppData%\\Programs\\AZ-Net\\AZ-Net.exe",
+          "%AppData%\\AZ\\AZ-Net\\AZ-Net.exe"
+        ]
+      },
+      "displayVersion": "0.1.0",
+      "buildVersion": "0.1.0"
+    },
+    {
       "id": "az-recovery-plus",
       "name": "AZ Recovery+",
       "category": "Recovery",
