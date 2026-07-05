@@ -369,11 +369,11 @@
                      "category":  "Recovery",
                      "tagline":  "File recovery.",
                      "description":  "Recover deleted files with a focused AZ recovery tool.",
-                     "version":  "1.0.8",
+                     "version":  "1.0.9",
                      "image":  "assets/az-recovery.png",
                      "icon":  "assets/az-recovery-icon.png",
                      "accent":  "#39d34a",
-                     "installerUrl":  "https://github.com/AZ1189/AZ-Recovery-Plus/releases/download/v1.0.8/AZ-Recovery-Plus-Setup.exe",
+                     "installerUrl":  "https://github.com/AZ1189/AZ-Recovery-Plus/releases/download/v1.0.9/AZ-Recovery-Plus-Setup.exe",
                      "installerFileName":  "AZ-Recovery-Plus-Setup.exe",
                      "installerType":  "exe",
                      "releaseNotes":  "",
@@ -406,8 +406,8 @@
                                                               "%AppData%\\AZ\\AZ Recovery+\\AZ-Recover.exe"
                                                           ]
                                       },
-                     "displayVersion":  "1.0.8",
-                     "buildVersion":  "1.0.8",
+                     "displayVersion":  "1.0.9",
+                     "buildVersion":  "1.0.9",
                      "installerFramework":  "inno"
                  }
              ]
