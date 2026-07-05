@@ -323,12 +323,12 @@
                      "category":  "Browser",
                      "tagline":  "Lightweight AZ browser.",
                      "description":  "Browse with local profiles, low-RAM defaults, and unpacked Chrome extension support.",
-                     "version":  "0.1.4",
+                     "version":  "0.1.5",
                      "image":  "assets/az-net.png",
                      "icon":  "assets/az-net.png",
                      "cardImage":  "assets/az-net.png",
                      "accent":  "#19b8ff",
-                     "installerUrl":  "https://github.com/AZ1189/AZ-Net/releases/download/v0.1.4/AZ-Net-Setup.exe",
+                     "installerUrl":  "https://github.com/AZ1189/AZ-Net/releases/download/v0.1.5/AZ-Net-Setup.exe",
                      "installerFileName":  "AZ-Net-Setup.exe",
                      "installerType":  "exe",
                      "releaseNotes":  "",
@@ -359,8 +359,8 @@
                                                               "%AppData%\\AZ\\AZ-Net\\AZ-Net.exe"
                                                           ]
                                       },
-                     "displayVersion":  "0.1.4",
-                     "buildVersion":  "0.1.4",
+                     "displayVersion":  "0.1.5",
+                     "buildVersion":  "0.1.5",
                      "installerFramework":  "nsis"
                  },
                  {
