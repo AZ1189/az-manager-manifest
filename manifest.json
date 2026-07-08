@@ -143,14 +143,14 @@
       "category": "Documents",
       "tagline": "Spreadsheets and Excel files.",
       "description": "Open, edit and export spreadsheets and Excel workbooks.",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "image": "assets/sheet-az.png",
       "icon": "assets/sheet-az-icon.png",
       "accent": "#167c3c",
-      "installerUrl": "https://github.com/AZ1189/Sheet-AZ/releases/download/v1.0.1/Sheet-AZ-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/Sheet-AZ/releases/download/v1.0.2/Sheet-AZ-Setup.exe",
       "installerFileName": "Sheet-AZ-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 1.0.1. Updates the installer usage notice to list only the usage totals and sign-in account link that AZ apps save, rebuilds the signed installer, and keeps source code local-only.",
+      "releaseNotes": "Version 1.0.2. Improves Excel workbook formatting fidelity, including styles, dimensions, merged cells, displayed values, and styled XLSX export.",
       "homepageUrl": "https://github.com/AZ1189/Sheet-AZ",
       "installCheck": {
         "paths": [
@@ -178,8 +178,8 @@
           "%AppData%\\AZ\\Sheet-AZ\\Sheet-AZ.exe"
         ]
       },
-      "displayVersion": "1.0.1",
-      "buildVersion": "1.0.1",
+      "displayVersion": "1.0.2",
+      "buildVersion": "1.0.2",
       "installerFramework": "nsis"
     },
     {
