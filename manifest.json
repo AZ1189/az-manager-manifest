@@ -1,414 +1,414 @@
 {
-    "brand":  "AZ Manager",
-    "companyName":  "AZ",
-    "brandLogo":  "assets/az-manager.png",
-    "manifestVersion":  1,
-    "apps":  [
-                 {
-                     "id":  "az-manager",
-                     "name":  "AZ Manager",
-                     "category":  "Launcher",
-                     "tagline":  "Manager and installer for AZ apps.",
-                     "description":  "Install, update, open and remove AZ products from one place.",
-                     "version":  "1.0.0",
-                     "image":  "assets/az-manager.png",
-                     "icon":  "assets/az-manager-icon.png",
-                     "accent":  "#f6a400",
-                     "installerUrl":  "https://github.com/AZ1189/AZ-Manager/releases/download/v1.0.0/AZ-Manager-Setup.exe",
-                     "installerFileName":  "AZ-Manager-Setup.exe",
-                     "installerType":  "exe",
-                     "releaseNotes":  "",
-                     "homepageUrl":  "https://github.com/AZ1189/AZ-Manager",
-                     "installCheck":  {
-                                          "paths":  [
-                                                        "%ProgramFiles%\\AZ\\AZ Manager\\AZ Manager.exe",
-                                                        "%ProgramFiles%\\AZ Manager\\AZ Manager.exe",
-                                                        "%ProgramFiles%\\AZ Applications\\AZ Manager\\AZ Manager.exe",
-                                                        "%LocalAppData%\\Programs\\AZ Manager\\AZ Manager.exe",
-                                                        "%LocalAppData%\\AZ Applications\\AZ Manager\\AZ Manager.exe",
-                                                        "%AppData%\\AZ\\Manager\\AZ Manager.exe"
-                                                    ],
-                                          "aliases":  [
-                                                          "AZ Manager"
-                                                      ],
-                                          "exes":  [
-                                                       "AZ Manager.exe"
-                                                   ],
-                                          "launchPaths":  [
-                                                              "%ProgramFiles%\\AZ\\AZ Manager\\AZ Manager.exe",
-                                                              "%ProgramFiles%\\AZ Manager\\AZ Manager.exe",
-                                                              "%ProgramFiles%\\AZ Applications\\AZ Manager\\AZ Manager.exe",
-                                                              "%LocalAppData%\\Programs\\AZ Manager\\AZ Manager.exe",
-                                                              "%LocalAppData%\\AZ Applications\\AZ Manager\\AZ Manager.exe",
-                                                              "%AppData%\\AZ\\Manager\\AZ Manager.exe"
-                                                          ]
-                                      },
-                     "displayVersion":  "1.0.0",
-                     "buildVersion":  "1.0.0",
-                     "installerFramework":  "nsis"
-                 },
-                 {
-                     "id":  "az-convert",
-                     "name":  "AZ-Convert",
-                     "category":  "Conversion",
-                     "tagline":  "Bulk file conversion.",
-                     "description":  "Convert groups of local files with the AZ interface.",
-                     "version":  "1.0.0",
-                     "image":  "assets/az-convert.png",
-                     "icon":  "assets/az-convert-icon.png",
-                     "accent":  "#b8f018",
-                     "installerUrl":  "https://github.com/AZ1189/AZ-Convert/releases/download/v1.0.0/AZ-Convert-Setup.exe",
-                     "installerFileName":  "AZ-Convert-Setup.exe",
-                     "installerType":  "exe",
-                     "releaseNotes":  "",
-                     "homepageUrl":  "https://github.com/AZ1189/AZ-Convert",
-                     "installCheck":  {
-                                          "paths":  [
-                                                        "%ProgramFiles%\\AZ\\AZ-Convert\\AZ-Convert.exe",
-                                                        "%ProgramFiles%\\AZ-Convert\\AZ-Convert.exe",
-                                                        "%ProgramFiles%\\AZ Applications\\AZ-Convert\\AZ-Convert.exe",
-                                                        "%LocalAppData%\\AZ Applications\\AZ-Convert\\AZ-Convert.exe",
-                                                        "%LocalAppData%\\Programs\\AZ-Convert\\AZ-Convert.exe",
-                                                        "%AppData%\\AZ\\AZ-Convert\\AZ-Convert.exe"
-                                                    ],
-                                          "aliases":  [
-                                                          "AZ-Convert",
-                                                          "AZ Convert"
-                                                      ],
-                                          "exes":  [
-                                                       "AZ-Convert.exe",
-                                                       "AZ Convert.exe"
-                                                   ],
-                                          "launchPaths":  [
-                                                              "%ProgramFiles%\\AZ\\AZ-Convert\\AZ-Convert.exe",
-                                                              "%ProgramFiles%\\AZ-Convert\\AZ-Convert.exe",
-                                                              "%ProgramFiles%\\AZ Applications\\AZ-Convert\\AZ-Convert.exe",
-                                                              "%LocalAppData%\\AZ Applications\\AZ-Convert\\AZ-Convert.exe",
-                                                              "%LocalAppData%\\Programs\\AZ-Convert\\AZ-Convert.exe",
-                                                              "%AppData%\\AZ\\AZ-Convert\\AZ-Convert.exe"
-                                                          ]
-                                      },
-                     "displayVersion":  "1.0.0",
-                     "buildVersion":  "1.0.0",
-                     "installerFramework":  "nsis"
-                 },
-                 {
-                     "id":  "docu-az",
-                     "name":  "Docu-AZ",
-                     "category":  "Documents",
-                     "tagline":  "Word documents and PDF editing.",
-                     "description":  "Create, edit and export Word documents and editable PDFs.",
-                     "version":  "1.0.0",
-                     "image":  "assets/docu-az.png",
-                     "icon":  "assets/docu-az-icon.png",
-                     "accent":  "#1f9bff",
-                     "installerUrl":  "https://github.com/AZ1189/Docu-AZ/releases/download/v1.0.6/Docu-AZ-Setup.exe",
-                     "installerFileName":  "Docu-AZ-Setup.exe",
-                     "installerType":  "exe",
-                     "releaseNotes":  "",
-                     "homepageUrl":  "https://github.com/AZ1189/Docu-AZ",
-                     "installCheck":  {
-                                          "paths":  [
-                                                        "%ProgramFiles%\\AZ\\Docu-AZ\\Docu-AZ.exe",
-                                                        "%ProgramFiles%\\Docu-AZ\\Docu-AZ.exe",
-                                                        "%ProgramFiles%\\AZ Applications\\Docu-AZ\\Docu-AZ.exe",
-                                                        "%LocalAppData%\\AZ Applications\\Docu-AZ\\Docu-AZ.exe",
-                                                        "%LocalAppData%\\Programs\\Docu-AZ\\Docu-AZ.exe",
-                                                        "%AppData%\\AZ\\Docu-AZ\\Docu-AZ.exe"
-                                                    ],
-                                          "aliases":  [
-                                                          "Docu-AZ",
-                                                          "Docu AZ"
-                                                      ],
-                                          "exes":  [
-                                                       "Docu-AZ.exe",
-                                                       "Docu AZ.exe"
-                                                   ],
-                                          "launchPaths":  [
-                                                              "%ProgramFiles%\\AZ\\Docu-AZ\\Docu-AZ.exe",
-                                                              "%ProgramFiles%\\Docu-AZ\\Docu-AZ.exe",
-                                                              "%ProgramFiles%\\AZ Applications\\Docu-AZ\\Docu-AZ.exe",
-                                                              "%LocalAppData%\\AZ Applications\\Docu-AZ\\Docu-AZ.exe",
-                                                              "%LocalAppData%\\Programs\\Docu-AZ\\Docu-AZ.exe",
-                                                              "%AppData%\\AZ\\Docu-AZ\\Docu-AZ.exe"
-                                                          ]
-                                      },
-                     "displayVersion":  "1.0.0",
-                     "buildVersion":  "1.0.0",
-                     "installerFramework":  "nsis"
-                 },
-                 {
-                     "id":  "sheet-az",
-                     "name":  "Sheet-AZ",
-                     "category":  "Documents",
-                     "tagline":  "Spreadsheets and Excel files.",
-                     "description":  "Open, edit and export spreadsheets and Excel workbooks.",
-                     "version":  "1.0.0",
-                     "image":  "assets/sheet-az.png",
-                     "icon":  "assets/sheet-az-icon.png",
-                     "accent":  "#167c3c",
-                     "installerUrl":  "https://github.com/AZ1189/Sheet-AZ/releases/download/v1.0.0/Sheet-AZ-Setup.exe",
-                     "installerFileName":  "Sheet-AZ-Setup.exe",
-                     "installerType":  "exe",
-                     "releaseNotes":  "",
-                     "homepageUrl":  "https://github.com/AZ1189/Sheet-AZ",
-                     "installCheck":  {
-                                          "paths":  [
-                                                        "%ProgramFiles%\\AZ\\Sheet-AZ\\Sheet-AZ.exe",
-                                                        "%ProgramFiles%\\Sheet-AZ\\Sheet-AZ.exe",
-                                                        "%ProgramFiles%\\AZ Applications\\Sheet-AZ\\Sheet-AZ.exe",
-                                                        "%LocalAppData%\\AZ Applications\\Sheet-AZ\\Sheet-AZ.exe",
-                                                        "%LocalAppData%\\Programs\\Sheet-AZ\\Sheet-AZ.exe",
-                                                        "%AppData%\\AZ\\Sheet-AZ\\Sheet-AZ.exe"
-                                                    ],
-                                          "aliases":  [
-                                                          "Sheet-AZ",
-                                                          "Sheet AZ"
-                                                      ],
-                                          "exes":  [
-                                                       "Sheet-AZ.exe",
-                                                       "Sheet AZ.exe"
-                                                   ],
-                                          "launchPaths":  [
-                                                              "%ProgramFiles%\\AZ\\Sheet-AZ\\Sheet-AZ.exe",
-                                                              "%ProgramFiles%\\Sheet-AZ\\Sheet-AZ.exe",
-                                                              "%ProgramFiles%\\AZ Applications\\Sheet-AZ\\Sheet-AZ.exe",
-                                                              "%LocalAppData%\\AZ Applications\\Sheet-AZ\\Sheet-AZ.exe",
-                                                              "%LocalAppData%\\Programs\\Sheet-AZ\\Sheet-AZ.exe",
-                                                              "%AppData%\\AZ\\Sheet-AZ\\Sheet-AZ.exe"
-                                                          ]
-                                      },
-                     "displayVersion":  "1.0.0",
-                     "buildVersion":  "1.0.0",
-                     "installerFramework":  "nsis"
-                 },
-                 {
-                     "id":  "az-chat",
-                     "name":  "AZ-Chat",
-                     "category":  "Messaging",
-                     "tagline":  "Private AZ messaging.",
-                     "description":  "Send private messages, groups and small files.",
-                     "version":  "1.0.0",
-                     "image":  "assets/az-chat.png",
-                     "icon":  "assets/az-chat-icon.png",
-                     "accent":  "#10d8cf",
-                     "installerUrl":  "https://github.com/AZ1189/AZ-Chat/releases/download/v1.0.21/AZ-Chat-Setup.exe",
-                     "installerFileName":  "AZ-Chat-Setup.exe",
-                     "installerType":  "exe",
-                     "releaseNotes":  "",
-                     "homepageUrl":  "https://github.com/AZ1189/AZ-Chat",
-                     "installCheck":  {
-                                          "paths":  [
-                                                        "%ProgramFiles%\\AZ\\AZ-Chat\\AZ-Chat.exe",
-                                                        "%LocalAppData%\\AZ Applications\\AZ-Chat\\AZ-Chat.exe",
-                                                        "%ProgramFiles%\\AZ Applications\\AZ-Chat\\AZ-Chat.exe",
-                                                        "%LocalAppData%\\Programs\\AZ-Chat\\AZ-Chat.exe",
-                                                        "%AppData%\\AZ\\AZ-Chat\\AZ-Chat.exe"
-                                                    ],
-                                          "aliases":  [
-                                                          "AZ-Chat",
-                                                          "AZ Chat"
-                                                      ],
-                                          "exes":  [
-                                                       "AZ-Chat.exe",
-                                                       "AZ Chat.exe"
-                                                   ],
-                                          "launchPaths":  [
-                                                              "%ProgramFiles%\\AZ\\AZ-Chat\\AZ-Chat.exe",
-                                                              "%LocalAppData%\\AZ Applications\\AZ-Chat\\AZ-Chat.exe",
-                                                              "%ProgramFiles%\\AZ Applications\\AZ-Chat\\AZ-Chat.exe",
-                                                              "%LocalAppData%\\Programs\\AZ-Chat\\AZ-Chat.exe",
-                                                              "%AppData%\\AZ\\AZ-Chat\\AZ-Chat.exe"
-                                                          ]
-                                      },
-                     "displayVersion":  "1.0.0",
-                     "buildVersion":  "1.0.0",
-                     "installerFramework":  "inno"
-                 },
-                 {
-                     "id":  "az-ippy",
-                     "name":  "AZ-Ippy",
-                     "category":  "Compression",
-                     "tagline":  "Archive compression and extraction.",
-                     "description":  "Browse, compress, extract, verify and convert archives.",
-                     "version":  "1.0.0",
-                     "image":  "assets/az-ippy.png",
-                     "icon":  "assets/az-ippy-icon.png",
-                     "accent":  "#ff3048",
-                     "installerUrl":  "https://github.com/AZ1189/AZ-Ippy/releases/download/v1.0.0/AZ-Ippy-Setup.exe",
-                     "installerFileName":  "AZ-Ippy-Setup.exe",
-                     "installerType":  "exe",
-                     "releaseNotes":  "",
-                     "homepageUrl":  "https://github.com/AZ1189/AZ-Ippy",
-                     "installCheck":  {
-                                          "paths":  [
-                                                        "%ProgramFiles%\\AZ\\AZ-Ippy\\AZ-Ippy.exe",
-                                                        "%LocalAppData%\\AZ-Ippy\\AZ-Ippy.exe",
-                                                        "%LocalAppData%\\AZ Applications\\AZ-Ippy\\AZ-Ippy.exe",
-                                                        "%ProgramFiles%\\AZ Applications\\AZ-Ippy\\AZ-Ippy.exe",
-                                                        "%LocalAppData%\\Programs\\AZ-Ippy\\AZ-Ippy.exe",
-                                                        "%AppData%\\AZ\\AZ-Ippy\\AZ-Ippy.exe"
-                                                    ],
-                                          "aliases":  [
-                                                          "AZ-Ippy",
-                                                          "AZ Ippy"
-                                                      ],
-                                          "exes":  [
-                                                       "AZ-Ippy.exe",
-                                                       "AZ Ippy.exe"
-                                                   ],
-                                          "launchPaths":  [
-                                                              "%ProgramFiles%\\AZ\\AZ-Ippy\\AZ-Ippy.exe",
-                                                              "%LocalAppData%\\AZ-Ippy\\AZ-Ippy.exe",
-                                                              "%LocalAppData%\\AZ Applications\\AZ-Ippy\\AZ-Ippy.exe",
-                                                              "%ProgramFiles%\\AZ Applications\\AZ-Ippy\\AZ-Ippy.exe",
-                                                              "%LocalAppData%\\Programs\\AZ-Ippy\\AZ-Ippy.exe",
-                                                              "%AppData%\\AZ\\AZ-Ippy\\AZ-Ippy.exe"
-                                                          ]
-                                      },
-                     "displayVersion":  "1.0.0",
-                     "buildVersion":  "1.0.0",
-                     "installerFramework":  "inno"
-                 },
-                 {
-                     "id":  "az-beam",
-                     "name":  "AZ Beam",
-                     "category":  "Transfer",
-                     "tagline":  "Secure AZip file transfer.",
-                     "description":  "Send AZip packages securely between devices.",
-                     "version":  "1.0.0",
-                     "image":  "assets/az-beam.png",
-                     "icon":  "assets/az-beam-icon.png",
-                     "accent":  "#1d75ff",
-                     "installerUrl":  "https://github.com/AZ1189/AZ-Beam/releases/download/v1.0.0/AZ-Beam-Setup.exe",
-                     "installerFileName":  "AZ-Beam-Setup.exe",
-                     "installerType":  "exe",
-                     "releaseNotes":  "",
-                     "homepageUrl":  "https://github.com/AZ1189/AZ-Beam",
-                     "installCheck":  {
-                                          "paths":  [
-                                                        "%ProgramFiles%\\AZ\\AZ Beam\\AZ Beam.exe",
-                                                        "%LocalAppData%\\AZ Applications\\AZ Beam\\AZ Beam.exe",
-                                                        "%ProgramFiles%\\AZ Applications\\AZ Beam\\AZ Beam.exe",
-                                                        "%LocalAppData%\\AZ Applications\\AZ-Ippy Beam\\AZ Beam.exe",
-                                                        "%ProgramFiles%\\AZ Applications\\AZ-Ippy Beam\\AZ Beam.exe",
-                                                        "%LocalAppData%\\Programs\\AZ Beam\\AZ Beam.exe",
-                                                        "%AppData%\\AZ\\AZ Beam\\AZ Beam.exe"
-                                                    ],
-                                          "aliases":  [
-                                                          "AZ Beam",
-                                                          "AZ-Ippy Beam"
-                                                      ],
-                                          "exes":  [
-                                                       "AZ Beam.exe",
-                                                       "AZ-Ippy Beam.exe"
-                                                   ],
-                                          "launchPaths":  [
-                                                              "%ProgramFiles%\\AZ\\AZ Beam\\AZ Beam.exe",
-                                                              "%LocalAppData%\\AZ Applications\\AZ Beam\\AZ Beam.exe",
-                                                              "%ProgramFiles%\\AZ Applications\\AZ Beam\\AZ Beam.exe",
-                                                              "%LocalAppData%\\AZ Applications\\AZ-Ippy Beam\\AZ Beam.exe",
-                                                              "%ProgramFiles%\\AZ Applications\\AZ-Ippy Beam\\AZ Beam.exe",
-                                                              "%LocalAppData%\\Programs\\AZ Beam\\AZ Beam.exe",
-                                                              "%AppData%\\AZ\\AZ Beam\\AZ Beam.exe"
-                                                          ]
-                                      },
-                     "displayVersion":  "1.0.0",
-                     "buildVersion":  "1.0.0",
-                     "installerFramework":  "inno"
-                 },
-                 {
-                     "id":  "az-net",
-                     "name":  "AZ-Net",
-                     "category":  "Browser",
-                     "tagline":  "Lightweight AZ browser.",
-                     "description":  "Browse with local profiles, low-RAM defaults, and unpacked Chrome extension support.",
-                     "version":  "1.0.0",
-                     "image":  "assets/az-net.png",
-                     "icon":  "assets/az-net.png",
-                     "cardImage":  "assets/az-net.png",
-                     "accent":  "#19b8ff",
-                     "installerUrl":  "https://github.com/AZ1189/AZ-Net/releases/download/v0.1.5/AZ-Net-Setup.exe",
-                     "installerFileName":  "AZ-Net-Setup.exe",
-                     "installerType":  "exe",
-                     "releaseNotes":  "",
-                     "homepageUrl":  "https://github.com/AZ1189/AZ-Net",
-                     "installCheck":  {
-                                          "paths":  [
-                                                        "%ProgramFiles%\\AZ\\AZ-Net\\AZ-Net.exe",
-                                                        "%ProgramFiles%\\AZ-Net\\AZ-Net.exe",
-                                                        "%ProgramFiles%\\AZ Applications\\AZ-Net\\AZ-Net.exe",
-                                                        "%LocalAppData%\\AZ Applications\\AZ-Net\\AZ-Net.exe",
-                                                        "%LocalAppData%\\Programs\\AZ-Net\\AZ-Net.exe",
-                                                        "%AppData%\\AZ\\AZ-Net\\AZ-Net.exe"
-                                                    ],
-                                          "aliases":  [
-                                                          "AZ-Net",
-                                                          "AZ Net"
-                                                      ],
-                                          "exes":  [
-                                                       "AZ-Net.exe",
-                                                       "AZ Net.exe"
-                                                   ],
-                                          "launchPaths":  [
-                                                              "%ProgramFiles%\\AZ\\AZ-Net\\AZ-Net.exe",
-                                                              "%ProgramFiles%\\AZ-Net\\AZ-Net.exe",
-                                                              "%ProgramFiles%\\AZ Applications\\AZ-Net\\AZ-Net.exe",
-                                                              "%LocalAppData%\\AZ Applications\\AZ-Net\\AZ-Net.exe",
-                                                              "%LocalAppData%\\Programs\\AZ-Net\\AZ-Net.exe",
-                                                              "%AppData%\\AZ\\AZ-Net\\AZ-Net.exe"
-                                                          ]
-                                      },
-                     "displayVersion":  "1.0.0",
-                     "buildVersion":  "1.0.0",
-                     "installerFramework":  "nsis"
-                 },
-                 {
-                     "id":  "az-recovery-plus",
-                     "name":  "AZ Recovery+",
-                     "category":  "Recovery",
-                     "tagline":  "File recovery.",
-                     "description":  "Recover deleted files with a focused AZ recovery tool.",
-                     "version":  "1.0.0",
-                     "image":  "assets/az-recovery.png",
-                     "icon":  "assets/az-recovery-icon.png",
-                     "accent":  "#39d34a",
-                     "installerUrl":  "https://github.com/AZ1189/AZ-Recovery-Plus/releases/download/v1.0.0/AZ-Recovery-Plus-Setup.exe",
-                     "installerFileName":  "AZ-Recovery-Plus-Setup.exe",
-                     "installerType":  "exe",
-                     "releaseNotes":  "",
-                     "homepageUrl":  "https://github.com/AZ1189/AZ-Recovery-Plus",
-                     "installCheck":  {
-                                          "paths":  [
-                                                        "%ProgramFiles%\\AZ\\AZ Recovery+\\AZ-Recover.exe",
-                                                        "%ProgramFiles%\\AZ Applications\\AZ-Recover\\AZ-Recover.exe",
-                                                        "%LocalAppData%\\AZ Applications\\AZ-Recover\\AZ-Recover.exe",
-                                                        "%ProgramFiles%\\AZ Applications\\AZ Recovery+\\AZ-Recover.exe",
-                                                        "%LocalAppData%\\AZ Applications\\AZ Recovery+\\AZ-Recover.exe",
-                                                        "%AppData%\\AZ\\AZ Recovery+\\AZ-Recover.exe"
-                                                    ],
-                                          "aliases":  [
-                                                          "AZ Recovery+",
-                                                          "AZ-Recover",
-                                                          "AZ Recovery Plus"
-                                                      ],
-                                          "exes":  [
-                                                       "AZ-Recover.exe",
-                                                       "AZ Recovery+.exe",
-                                                       "AZ Recovery Plus.exe"
-                                                   ],
-                                          "launchPaths":  [
-                                                              "%ProgramFiles%\\AZ\\AZ Recovery+\\AZ-Recover.exe",
-                                                              "%ProgramFiles%\\AZ Applications\\AZ-Recover\\AZ-Recover.exe",
-                                                              "%LocalAppData%\\AZ Applications\\AZ-Recover\\AZ-Recover.exe",
-                                                              "%ProgramFiles%\\AZ Applications\\AZ Recovery+\\AZ-Recover.exe",
-                                                              "%LocalAppData%\\AZ Applications\\AZ Recovery+\\AZ-Recover.exe",
-                                                              "%AppData%\\AZ\\AZ Recovery+\\AZ-Recover.exe"
-                                                          ]
-                                      },
-                     "displayVersion":  "1.0.0",
-                     "buildVersion":  "1.0.0",
-                     "installerFramework":  "inno"
-                 }
-             ]
+  "brand": "AZ Manager",
+  "companyName": "AZ",
+  "brandLogo": "assets/az-manager.png",
+  "manifestVersion": 1,
+  "apps": [
+    {
+      "id": "az-manager",
+      "name": "AZ Manager",
+      "category": "Launcher",
+      "tagline": "Manager and installer for AZ apps.",
+      "description": "Install, update, open and remove AZ products from one place.",
+      "version": "1.0.1",
+      "image": "assets/az-manager.png",
+      "icon": "assets/az-manager-icon.png",
+      "accent": "#f6a400",
+      "installerUrl": "https://github.com/AZ1189/AZ-Manager/releases/download/v1.0.1/AZ-Manager-Setup.exe",
+      "installerFileName": "AZ-Manager-Setup.exe",
+      "installerType": "exe",
+      "releaseNotes": "Version 1.0.1. Updates the installer usage notice to list only the usage totals and sign-in account link that AZ apps save, rebuilds the signed installer, and keeps source code local-only.",
+      "homepageUrl": "https://github.com/AZ1189/AZ-Manager",
+      "installCheck": {
+        "paths": [
+          "%ProgramFiles%\\AZ\\AZ Manager\\AZ Manager.exe",
+          "%ProgramFiles%\\AZ Manager\\AZ Manager.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ Manager\\AZ Manager.exe",
+          "%LocalAppData%\\Programs\\AZ Manager\\AZ Manager.exe",
+          "%LocalAppData%\\AZ Applications\\AZ Manager\\AZ Manager.exe",
+          "%AppData%\\AZ\\Manager\\AZ Manager.exe"
+        ],
+        "aliases": [
+          "AZ Manager"
+        ],
+        "exes": [
+          "AZ Manager.exe"
+        ],
+        "launchPaths": [
+          "%ProgramFiles%\\AZ\\AZ Manager\\AZ Manager.exe",
+          "%ProgramFiles%\\AZ Manager\\AZ Manager.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ Manager\\AZ Manager.exe",
+          "%LocalAppData%\\Programs\\AZ Manager\\AZ Manager.exe",
+          "%LocalAppData%\\AZ Applications\\AZ Manager\\AZ Manager.exe",
+          "%AppData%\\AZ\\Manager\\AZ Manager.exe"
+        ]
+      },
+      "displayVersion": "1.0.1",
+      "buildVersion": "1.0.1",
+      "installerFramework": "nsis"
+    },
+    {
+      "id": "az-convert",
+      "name": "AZ-Convert",
+      "category": "Conversion",
+      "tagline": "Bulk file conversion.",
+      "description": "Convert groups of local files with the AZ interface.",
+      "version": "1.0.1",
+      "image": "assets/az-convert.png",
+      "icon": "assets/az-convert-icon.png",
+      "accent": "#b8f018",
+      "installerUrl": "https://github.com/AZ1189/AZ-Convert/releases/download/v1.0.1/AZ-Convert-Setup.exe",
+      "installerFileName": "AZ-Convert-Setup.exe",
+      "installerType": "exe",
+      "releaseNotes": "Version 1.0.1. Updates the installer usage notice to list only the usage totals and sign-in account link that AZ apps save, rebuilds the signed installer, and keeps source code local-only.",
+      "homepageUrl": "https://github.com/AZ1189/AZ-Convert",
+      "installCheck": {
+        "paths": [
+          "%ProgramFiles%\\AZ\\AZ-Convert\\AZ-Convert.exe",
+          "%ProgramFiles%\\AZ-Convert\\AZ-Convert.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ-Convert\\AZ-Convert.exe",
+          "%LocalAppData%\\AZ Applications\\AZ-Convert\\AZ-Convert.exe",
+          "%LocalAppData%\\Programs\\AZ-Convert\\AZ-Convert.exe",
+          "%AppData%\\AZ\\AZ-Convert\\AZ-Convert.exe"
+        ],
+        "aliases": [
+          "AZ-Convert",
+          "AZ Convert"
+        ],
+        "exes": [
+          "AZ-Convert.exe",
+          "AZ Convert.exe"
+        ],
+        "launchPaths": [
+          "%ProgramFiles%\\AZ\\AZ-Convert\\AZ-Convert.exe",
+          "%ProgramFiles%\\AZ-Convert\\AZ-Convert.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ-Convert\\AZ-Convert.exe",
+          "%LocalAppData%\\AZ Applications\\AZ-Convert\\AZ-Convert.exe",
+          "%LocalAppData%\\Programs\\AZ-Convert\\AZ-Convert.exe",
+          "%AppData%\\AZ\\AZ-Convert\\AZ-Convert.exe"
+        ]
+      },
+      "displayVersion": "1.0.1",
+      "buildVersion": "1.0.1",
+      "installerFramework": "nsis"
+    },
+    {
+      "id": "docu-az",
+      "name": "Docu-AZ",
+      "category": "Documents",
+      "tagline": "Word documents and PDF editing.",
+      "description": "Create, edit and export Word documents and editable PDFs.",
+      "version": "1.0.1",
+      "image": "assets/docu-az.png",
+      "icon": "assets/docu-az-icon.png",
+      "accent": "#1f9bff",
+      "installerUrl": "https://github.com/AZ1189/Docu-AZ/releases/download/v1.0.1/Docu-AZ-Setup.exe",
+      "installerFileName": "Docu-AZ-Setup.exe",
+      "installerType": "exe",
+      "releaseNotes": "Version 1.0.1. Updates the installer usage notice to list only the usage totals and sign-in account link that AZ apps save, rebuilds the signed installer, and keeps source code local-only.",
+      "homepageUrl": "https://github.com/AZ1189/Docu-AZ",
+      "installCheck": {
+        "paths": [
+          "%ProgramFiles%\\AZ\\Docu-AZ\\Docu-AZ.exe",
+          "%ProgramFiles%\\Docu-AZ\\Docu-AZ.exe",
+          "%ProgramFiles%\\AZ Applications\\Docu-AZ\\Docu-AZ.exe",
+          "%LocalAppData%\\AZ Applications\\Docu-AZ\\Docu-AZ.exe",
+          "%LocalAppData%\\Programs\\Docu-AZ\\Docu-AZ.exe",
+          "%AppData%\\AZ\\Docu-AZ\\Docu-AZ.exe"
+        ],
+        "aliases": [
+          "Docu-AZ",
+          "Docu AZ"
+        ],
+        "exes": [
+          "Docu-AZ.exe",
+          "Docu AZ.exe"
+        ],
+        "launchPaths": [
+          "%ProgramFiles%\\AZ\\Docu-AZ\\Docu-AZ.exe",
+          "%ProgramFiles%\\Docu-AZ\\Docu-AZ.exe",
+          "%ProgramFiles%\\AZ Applications\\Docu-AZ\\Docu-AZ.exe",
+          "%LocalAppData%\\AZ Applications\\Docu-AZ\\Docu-AZ.exe",
+          "%LocalAppData%\\Programs\\Docu-AZ\\Docu-AZ.exe",
+          "%AppData%\\AZ\\Docu-AZ\\Docu-AZ.exe"
+        ]
+      },
+      "displayVersion": "1.0.1",
+      "buildVersion": "1.0.1",
+      "installerFramework": "nsis"
+    },
+    {
+      "id": "sheet-az",
+      "name": "Sheet-AZ",
+      "category": "Documents",
+      "tagline": "Spreadsheets and Excel files.",
+      "description": "Open, edit and export spreadsheets and Excel workbooks.",
+      "version": "1.0.1",
+      "image": "assets/sheet-az.png",
+      "icon": "assets/sheet-az-icon.png",
+      "accent": "#167c3c",
+      "installerUrl": "https://github.com/AZ1189/Sheet-AZ/releases/download/v1.0.1/Sheet-AZ-Setup.exe",
+      "installerFileName": "Sheet-AZ-Setup.exe",
+      "installerType": "exe",
+      "releaseNotes": "Version 1.0.1. Updates the installer usage notice to list only the usage totals and sign-in account link that AZ apps save, rebuilds the signed installer, and keeps source code local-only.",
+      "homepageUrl": "https://github.com/AZ1189/Sheet-AZ",
+      "installCheck": {
+        "paths": [
+          "%ProgramFiles%\\AZ\\Sheet-AZ\\Sheet-AZ.exe",
+          "%ProgramFiles%\\Sheet-AZ\\Sheet-AZ.exe",
+          "%ProgramFiles%\\AZ Applications\\Sheet-AZ\\Sheet-AZ.exe",
+          "%LocalAppData%\\AZ Applications\\Sheet-AZ\\Sheet-AZ.exe",
+          "%LocalAppData%\\Programs\\Sheet-AZ\\Sheet-AZ.exe",
+          "%AppData%\\AZ\\Sheet-AZ\\Sheet-AZ.exe"
+        ],
+        "aliases": [
+          "Sheet-AZ",
+          "Sheet AZ"
+        ],
+        "exes": [
+          "Sheet-AZ.exe",
+          "Sheet AZ.exe"
+        ],
+        "launchPaths": [
+          "%ProgramFiles%\\AZ\\Sheet-AZ\\Sheet-AZ.exe",
+          "%ProgramFiles%\\Sheet-AZ\\Sheet-AZ.exe",
+          "%ProgramFiles%\\AZ Applications\\Sheet-AZ\\Sheet-AZ.exe",
+          "%LocalAppData%\\AZ Applications\\Sheet-AZ\\Sheet-AZ.exe",
+          "%LocalAppData%\\Programs\\Sheet-AZ\\Sheet-AZ.exe",
+          "%AppData%\\AZ\\Sheet-AZ\\Sheet-AZ.exe"
+        ]
+      },
+      "displayVersion": "1.0.1",
+      "buildVersion": "1.0.1",
+      "installerFramework": "nsis"
+    },
+    {
+      "id": "az-chat",
+      "name": "AZ-Chat",
+      "category": "Messaging",
+      "tagline": "Private AZ messaging.",
+      "description": "Send private messages, groups and small files.",
+      "version": "1.0.1",
+      "image": "assets/az-chat.png",
+      "icon": "assets/az-chat-icon.png",
+      "accent": "#10d8cf",
+      "installerUrl": "https://github.com/AZ1189/AZ-Chat/releases/download/v1.0.1/AZ-Chat-Setup.exe",
+      "installerFileName": "AZ-Chat-Setup.exe",
+      "installerType": "exe",
+      "releaseNotes": "Version 1.0.1. Updates the installer usage notice to list only the usage totals and sign-in account link that AZ apps save, rebuilds the signed installer, and keeps source code local-only.",
+      "homepageUrl": "https://github.com/AZ1189/AZ-Chat",
+      "installCheck": {
+        "paths": [
+          "%ProgramFiles%\\AZ\\AZ-Chat\\AZ-Chat.exe",
+          "%LocalAppData%\\AZ Applications\\AZ-Chat\\AZ-Chat.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ-Chat\\AZ-Chat.exe",
+          "%LocalAppData%\\Programs\\AZ-Chat\\AZ-Chat.exe",
+          "%AppData%\\AZ\\AZ-Chat\\AZ-Chat.exe"
+        ],
+        "aliases": [
+          "AZ-Chat",
+          "AZ Chat"
+        ],
+        "exes": [
+          "AZ-Chat.exe",
+          "AZ Chat.exe"
+        ],
+        "launchPaths": [
+          "%ProgramFiles%\\AZ\\AZ-Chat\\AZ-Chat.exe",
+          "%LocalAppData%\\AZ Applications\\AZ-Chat\\AZ-Chat.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ-Chat\\AZ-Chat.exe",
+          "%LocalAppData%\\Programs\\AZ-Chat\\AZ-Chat.exe",
+          "%AppData%\\AZ\\AZ-Chat\\AZ-Chat.exe"
+        ]
+      },
+      "displayVersion": "1.0.1",
+      "buildVersion": "1.0.1",
+      "installerFramework": "inno"
+    },
+    {
+      "id": "az-ippy",
+      "name": "AZ-Ippy",
+      "category": "Compression",
+      "tagline": "Archive compression and extraction.",
+      "description": "Browse, compress, extract, verify and convert archives.",
+      "version": "1.0.1",
+      "image": "assets/az-ippy.png",
+      "icon": "assets/az-ippy-icon.png",
+      "accent": "#ff3048",
+      "installerUrl": "https://github.com/AZ1189/AZ-Ippy/releases/download/v1.0.1/AZ-Ippy-Setup.exe",
+      "installerFileName": "AZ-Ippy-Setup.exe",
+      "installerType": "exe",
+      "releaseNotes": "Version 1.0.1. Updates the installer usage notice to list only the usage totals and sign-in account link that AZ apps save, rebuilds the signed installer, and keeps source code local-only.",
+      "homepageUrl": "https://github.com/AZ1189/AZ-Ippy",
+      "installCheck": {
+        "paths": [
+          "%ProgramFiles%\\AZ\\AZ-Ippy\\AZ-Ippy.exe",
+          "%LocalAppData%\\AZ-Ippy\\AZ-Ippy.exe",
+          "%LocalAppData%\\AZ Applications\\AZ-Ippy\\AZ-Ippy.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ-Ippy\\AZ-Ippy.exe",
+          "%LocalAppData%\\Programs\\AZ-Ippy\\AZ-Ippy.exe",
+          "%AppData%\\AZ\\AZ-Ippy\\AZ-Ippy.exe"
+        ],
+        "aliases": [
+          "AZ-Ippy",
+          "AZ Ippy"
+        ],
+        "exes": [
+          "AZ-Ippy.exe",
+          "AZ Ippy.exe"
+        ],
+        "launchPaths": [
+          "%ProgramFiles%\\AZ\\AZ-Ippy\\AZ-Ippy.exe",
+          "%LocalAppData%\\AZ-Ippy\\AZ-Ippy.exe",
+          "%LocalAppData%\\AZ Applications\\AZ-Ippy\\AZ-Ippy.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ-Ippy\\AZ-Ippy.exe",
+          "%LocalAppData%\\Programs\\AZ-Ippy\\AZ-Ippy.exe",
+          "%AppData%\\AZ\\AZ-Ippy\\AZ-Ippy.exe"
+        ]
+      },
+      "displayVersion": "1.0.1",
+      "buildVersion": "1.0.1",
+      "installerFramework": "inno"
+    },
+    {
+      "id": "az-beam",
+      "name": "AZ Beam",
+      "category": "Transfer",
+      "tagline": "Secure AZip file transfer.",
+      "description": "Send AZip packages securely between devices.",
+      "version": "1.0.1",
+      "image": "assets/az-beam.png",
+      "icon": "assets/az-beam-icon.png",
+      "accent": "#1d75ff",
+      "installerUrl": "https://github.com/AZ1189/AZ-Beam/releases/download/v1.0.1/AZ-Beam-Setup.exe",
+      "installerFileName": "AZ-Beam-Setup.exe",
+      "installerType": "exe",
+      "releaseNotes": "Version 1.0.1. Updates the installer usage notice to list only the usage totals and sign-in account link that AZ apps save, rebuilds the signed installer, and keeps source code local-only.",
+      "homepageUrl": "https://github.com/AZ1189/AZ-Beam",
+      "installCheck": {
+        "paths": [
+          "%ProgramFiles%\\AZ\\AZ Beam\\AZ Beam.exe",
+          "%LocalAppData%\\AZ Applications\\AZ Beam\\AZ Beam.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ Beam\\AZ Beam.exe",
+          "%LocalAppData%\\AZ Applications\\AZ-Ippy Beam\\AZ Beam.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ-Ippy Beam\\AZ Beam.exe",
+          "%LocalAppData%\\Programs\\AZ Beam\\AZ Beam.exe",
+          "%AppData%\\AZ\\AZ Beam\\AZ Beam.exe"
+        ],
+        "aliases": [
+          "AZ Beam",
+          "AZ-Ippy Beam"
+        ],
+        "exes": [
+          "AZ Beam.exe",
+          "AZ-Ippy Beam.exe"
+        ],
+        "launchPaths": [
+          "%ProgramFiles%\\AZ\\AZ Beam\\AZ Beam.exe",
+          "%LocalAppData%\\AZ Applications\\AZ Beam\\AZ Beam.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ Beam\\AZ Beam.exe",
+          "%LocalAppData%\\AZ Applications\\AZ-Ippy Beam\\AZ Beam.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ-Ippy Beam\\AZ Beam.exe",
+          "%LocalAppData%\\Programs\\AZ Beam\\AZ Beam.exe",
+          "%AppData%\\AZ\\AZ Beam\\AZ Beam.exe"
+        ]
+      },
+      "displayVersion": "1.0.1",
+      "buildVersion": "1.0.1",
+      "installerFramework": "inno"
+    },
+    {
+      "id": "az-net",
+      "name": "AZ-Net",
+      "category": "Browser",
+      "tagline": "Lightweight AZ browser.",
+      "description": "Browse with local profiles, low-RAM defaults, and unpacked Chrome extension support.",
+      "version": "1.0.1",
+      "image": "assets/az-net.png",
+      "icon": "assets/az-net.png",
+      "cardImage": "assets/az-net.png",
+      "accent": "#19b8ff",
+      "installerUrl": "https://github.com/AZ1189/AZ-Net/releases/download/v1.0.1/AZ-Net-Setup.exe",
+      "installerFileName": "AZ-Net-Setup.exe",
+      "installerType": "exe",
+      "releaseNotes": "Version 1.0.1. Updates the installer usage notice to list only the usage totals and sign-in account link that AZ apps save, rebuilds the signed installer, and keeps source code local-only.",
+      "homepageUrl": "https://github.com/AZ1189/AZ-Net",
+      "installCheck": {
+        "paths": [
+          "%ProgramFiles%\\AZ\\AZ-Net\\AZ-Net.exe",
+          "%ProgramFiles%\\AZ-Net\\AZ-Net.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ-Net\\AZ-Net.exe",
+          "%LocalAppData%\\AZ Applications\\AZ-Net\\AZ-Net.exe",
+          "%LocalAppData%\\Programs\\AZ-Net\\AZ-Net.exe",
+          "%AppData%\\AZ\\AZ-Net\\AZ-Net.exe"
+        ],
+        "aliases": [
+          "AZ-Net",
+          "AZ Net"
+        ],
+        "exes": [
+          "AZ-Net.exe",
+          "AZ Net.exe"
+        ],
+        "launchPaths": [
+          "%ProgramFiles%\\AZ\\AZ-Net\\AZ-Net.exe",
+          "%ProgramFiles%\\AZ-Net\\AZ-Net.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ-Net\\AZ-Net.exe",
+          "%LocalAppData%\\AZ Applications\\AZ-Net\\AZ-Net.exe",
+          "%LocalAppData%\\Programs\\AZ-Net\\AZ-Net.exe",
+          "%AppData%\\AZ\\AZ-Net\\AZ-Net.exe"
+        ]
+      },
+      "displayVersion": "1.0.1",
+      "buildVersion": "1.0.1",
+      "installerFramework": "nsis"
+    },
+    {
+      "id": "az-recovery-plus",
+      "name": "AZ Recovery+",
+      "category": "Recovery",
+      "tagline": "File recovery.",
+      "description": "Recover deleted files with a focused AZ recovery tool.",
+      "version": "1.0.1",
+      "image": "assets/az-recovery.png",
+      "icon": "assets/az-recovery-icon.png",
+      "accent": "#39d34a",
+      "installerUrl": "https://github.com/AZ1189/AZ-Recovery-Plus/releases/download/v1.0.1/AZ-Recovery-Plus-Setup.exe",
+      "installerFileName": "AZ-Recovery-Plus-Setup.exe",
+      "installerType": "exe",
+      "releaseNotes": "Version 1.0.1. Updates the installer usage notice to list only the usage totals and sign-in account link that AZ apps save, rebuilds the signed installer, and keeps source code local-only.",
+      "homepageUrl": "https://github.com/AZ1189/AZ-Recovery-Plus",
+      "installCheck": {
+        "paths": [
+          "%ProgramFiles%\\AZ\\AZ Recovery+\\AZ-Recover.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ-Recover\\AZ-Recover.exe",
+          "%LocalAppData%\\AZ Applications\\AZ-Recover\\AZ-Recover.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ Recovery+\\AZ-Recover.exe",
+          "%LocalAppData%\\AZ Applications\\AZ Recovery+\\AZ-Recover.exe",
+          "%AppData%\\AZ\\AZ Recovery+\\AZ-Recover.exe"
+        ],
+        "aliases": [
+          "AZ Recovery+",
+          "AZ-Recover",
+          "AZ Recovery Plus"
+        ],
+        "exes": [
+          "AZ-Recover.exe",
+          "AZ Recovery+.exe",
+          "AZ Recovery Plus.exe"
+        ],
+        "launchPaths": [
+          "%ProgramFiles%\\AZ\\AZ Recovery+\\AZ-Recover.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ-Recover\\AZ-Recover.exe",
+          "%LocalAppData%\\AZ Applications\\AZ-Recover\\AZ-Recover.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ Recovery+\\AZ-Recover.exe",
+          "%LocalAppData%\\AZ Applications\\AZ Recovery+\\AZ-Recover.exe",
+          "%AppData%\\AZ\\AZ Recovery+\\AZ-Recover.exe"
+        ]
+      },
+      "displayVersion": "1.0.1",
+      "buildVersion": "1.0.1",
+      "installerFramework": "inno"
+    }
+  ]
 }
