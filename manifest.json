@@ -10,14 +10,14 @@
       "category": "Launcher",
       "tagline": "Manager and installer for AZ apps.",
       "description": "Install, update, open and remove AZ products from one place.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "image": "assets/az-manager.png",
       "icon": "assets/az-manager-icon.png",
       "accent": "#f6a400",
-      "installerUrl": "https://github.com/AZ1189/AZ-Manager/releases/download/v1.0.2/AZ-Manager-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Manager/releases/download/v1.0.3/AZ-Manager-Setup.exe",
       "installerFileName": "AZ-Manager-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 1.0.2. Publishes the current installer set one patch version ahead of 1.0.1, with installer-only GitHub releases and source code kept local-only.",
+      "releaseNotes": "Version 1.0.3. Adds Light, Dark, and System theme controls to the Settings ribbon area across AZ apps, with refreshed installer-only GitHub releases and source code kept local-only.",
       "homepageUrl": "https://github.com/AZ1189/AZ-Manager",
       "installCheck": {
         "paths": [
@@ -43,8 +43,8 @@
           "%AppData%\\AZ\\Manager\\AZ Manager.exe"
         ]
       },
-      "displayVersion": "1.0.2",
-      "buildVersion": "1.0.2",
+      "displayVersion": "1.0.3",
+      "buildVersion": "1.0.3",
       "installerFramework": "nsis"
     },
     {
@@ -53,14 +53,14 @@
       "category": "Conversion",
       "tagline": "Bulk file conversion.",
       "description": "Convert groups of local files with the AZ interface.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "image": "assets/az-convert.png",
       "icon": "assets/az-convert-icon.png",
       "accent": "#b8f018",
-      "installerUrl": "https://github.com/AZ1189/AZ-Convert/releases/download/v1.0.2/AZ-Convert-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Convert/releases/download/v1.0.3/AZ-Convert-Setup.exe",
       "installerFileName": "AZ-Convert-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 1.0.2. Publishes the current installer set one patch version ahead of 1.0.1, with installer-only GitHub releases and source code kept local-only.",
+      "releaseNotes": "Version 1.0.3. Adds Light, Dark, and System theme controls to the Settings ribbon area across AZ apps, with refreshed installer-only GitHub releases and source code kept local-only.",
       "homepageUrl": "https://github.com/AZ1189/AZ-Convert",
       "installCheck": {
         "paths": [
@@ -88,8 +88,8 @@
           "%AppData%\\AZ\\AZ-Convert\\AZ-Convert.exe"
         ]
       },
-      "displayVersion": "1.0.2",
-      "buildVersion": "1.0.2",
+      "displayVersion": "1.0.3",
+      "buildVersion": "1.0.3",
       "installerFramework": "nsis"
     },
     {
@@ -98,14 +98,14 @@
       "category": "Documents",
       "tagline": "Word documents and PDF editing.",
       "description": "Create, edit and export Word documents and editable PDFs.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "image": "assets/docu-az.png",
       "icon": "assets/docu-az-icon.png",
       "accent": "#1f9bff",
-      "installerUrl": "https://github.com/AZ1189/Docu-AZ/releases/download/v1.0.2/Docu-AZ-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/Docu-AZ/releases/download/v1.0.3/Docu-AZ-Setup.exe",
       "installerFileName": "Docu-AZ-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 1.0.2. Publishes the current installer set one patch version ahead of 1.0.1, with installer-only GitHub releases and source code kept local-only.",
+      "releaseNotes": "Version 1.0.3. Adds Light, Dark, and System theme controls to the Settings ribbon area across AZ apps, with refreshed installer-only GitHub releases and source code kept local-only.",
       "homepageUrl": "https://github.com/AZ1189/Docu-AZ",
       "installCheck": {
         "paths": [
@@ -133,8 +133,8 @@
           "%AppData%\\AZ\\Docu-AZ\\Docu-AZ.exe"
         ]
       },
-      "displayVersion": "1.0.2",
-      "buildVersion": "1.0.2",
+      "displayVersion": "1.0.3",
+      "buildVersion": "1.0.3",
       "installerFramework": "nsis"
     },
     {
@@ -143,14 +143,14 @@
       "category": "Documents",
       "tagline": "Spreadsheets and Excel files.",
       "description": "Open, edit and export spreadsheets and Excel workbooks.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "image": "assets/sheet-az.png",
       "icon": "assets/sheet-az-icon.png",
       "accent": "#167c3c",
-      "installerUrl": "https://github.com/AZ1189/Sheet-AZ/releases/download/v1.0.2/Sheet-AZ-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/Sheet-AZ/releases/download/v1.0.3/Sheet-AZ-Setup.exe",
       "installerFileName": "Sheet-AZ-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 1.0.2. Publishes the current installer set one patch version ahead of 1.0.1, with installer-only GitHub releases and source code kept local-only.",
+      "releaseNotes": "Version 1.0.3. Adds Light, Dark, and System theme controls to the Settings ribbon area across AZ apps, with refreshed installer-only GitHub releases and source code kept local-only.",
       "homepageUrl": "https://github.com/AZ1189/Sheet-AZ",
       "installCheck": {
         "paths": [
@@ -178,8 +178,8 @@
           "%AppData%\\AZ\\Sheet-AZ\\Sheet-AZ.exe"
         ]
       },
-      "displayVersion": "1.0.2",
-      "buildVersion": "1.0.2",
+      "displayVersion": "1.0.3",
+      "buildVersion": "1.0.3",
       "installerFramework": "nsis"
     },
     {
@@ -188,14 +188,14 @@
       "category": "Messaging",
       "tagline": "Private AZ messaging.",
       "description": "Send private messages, groups and small files.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "image": "assets/az-chat.png",
       "icon": "assets/az-chat-icon.png",
       "accent": "#10d8cf",
-      "installerUrl": "https://github.com/AZ1189/AZ-Chat/releases/download/v1.0.2/AZ-Chat-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Chat/releases/download/v1.0.3/AZ-Chat-Setup.exe",
       "installerFileName": "AZ-Chat-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 1.0.2. Publishes the current installer set one patch version ahead of 1.0.1, with installer-only GitHub releases and source code kept local-only.",
+      "releaseNotes": "Version 1.0.3. Adds Light, Dark, and System theme controls to the Settings ribbon area across AZ apps, with refreshed installer-only GitHub releases and source code kept local-only.",
       "homepageUrl": "https://github.com/AZ1189/AZ-Chat",
       "installCheck": {
         "paths": [
@@ -221,8 +221,8 @@
           "%AppData%\\AZ\\AZ-Chat\\AZ-Chat.exe"
         ]
       },
-      "displayVersion": "1.0.2",
-      "buildVersion": "1.0.2",
+      "displayVersion": "1.0.3",
+      "buildVersion": "1.0.3",
       "installerFramework": "inno"
     },
     {
@@ -231,14 +231,14 @@
       "category": "Compression",
       "tagline": "Archive compression and extraction.",
       "description": "Browse, compress, extract, verify and convert archives.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "image": "assets/az-ippy.png",
       "icon": "assets/az-ippy-icon.png",
       "accent": "#ff3048",
-      "installerUrl": "https://github.com/AZ1189/AZ-Ippy/releases/download/v1.0.2/AZ-Ippy-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Ippy/releases/download/v1.0.3/AZ-Ippy-Setup.exe",
       "installerFileName": "AZ-Ippy-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 1.0.2. Publishes the current installer set one patch version ahead of 1.0.1, with installer-only GitHub releases and source code kept local-only.",
+      "releaseNotes": "Version 1.0.3. Adds Light, Dark, and System theme controls to the Settings ribbon area across AZ apps, with refreshed installer-only GitHub releases and source code kept local-only.",
       "homepageUrl": "https://github.com/AZ1189/AZ-Ippy",
       "installCheck": {
         "paths": [
@@ -266,8 +266,8 @@
           "%AppData%\\AZ\\AZ-Ippy\\AZ-Ippy.exe"
         ]
       },
-      "displayVersion": "1.0.2",
-      "buildVersion": "1.0.2",
+      "displayVersion": "1.0.3",
+      "buildVersion": "1.0.3",
       "installerFramework": "inno"
     },
     {
@@ -276,14 +276,14 @@
       "category": "Transfer",
       "tagline": "Secure AZip file transfer.",
       "description": "Send AZip packages securely between devices.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "image": "assets/az-beam.png",
       "icon": "assets/az-beam-icon.png",
       "accent": "#1d75ff",
-      "installerUrl": "https://github.com/AZ1189/AZ-Beam/releases/download/v1.0.2/AZ-Beam-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Beam/releases/download/v1.0.3/AZ-Beam-Setup.exe",
       "installerFileName": "AZ-Beam-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 1.0.2. Publishes the current installer set one patch version ahead of 1.0.1, with installer-only GitHub releases and source code kept local-only.",
+      "releaseNotes": "Version 1.0.3. Adds Light, Dark, and System theme controls to the Settings ribbon area across AZ apps, with refreshed installer-only GitHub releases and source code kept local-only.",
       "homepageUrl": "https://github.com/AZ1189/AZ-Beam",
       "installCheck": {
         "paths": [
@@ -313,8 +313,8 @@
           "%AppData%\\AZ\\AZ Beam\\AZ Beam.exe"
         ]
       },
-      "displayVersion": "1.0.2",
-      "buildVersion": "1.0.2",
+      "displayVersion": "1.0.3",
+      "buildVersion": "1.0.3",
       "installerFramework": "inno"
     },
     {
@@ -323,15 +323,15 @@
       "category": "Browser",
       "tagline": "Lightweight AZ browser.",
       "description": "Browse with local profiles, low-RAM defaults, and unpacked Chrome extension support.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "image": "assets/az-net.png",
       "icon": "assets/az-net.png",
       "cardImage": "assets/az-net.png",
       "accent": "#19b8ff",
-      "installerUrl": "https://github.com/AZ1189/AZ-Net/releases/download/v1.0.2/AZ-Net-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Net/releases/download/v1.0.3/AZ-Net-Setup.exe",
       "installerFileName": "AZ-Net-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 1.0.2. Publishes the current installer set one patch version ahead of 1.0.1, with installer-only GitHub releases and source code kept local-only.",
+      "releaseNotes": "Version 1.0.3. Adds Light, Dark, and System theme controls to the Settings ribbon area across AZ apps, with refreshed installer-only GitHub releases and source code kept local-only.",
       "homepageUrl": "https://github.com/AZ1189/AZ-Net",
       "installCheck": {
         "paths": [
@@ -359,8 +359,8 @@
           "%AppData%\\AZ\\AZ-Net\\AZ-Net.exe"
         ]
       },
-      "displayVersion": "1.0.2",
-      "buildVersion": "1.0.2",
+      "displayVersion": "1.0.3",
+      "buildVersion": "1.0.3",
       "installerFramework": "nsis"
     },
     {
@@ -369,14 +369,14 @@
       "category": "Recovery",
       "tagline": "File recovery.",
       "description": "Recover deleted files with a focused AZ recovery tool.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "image": "assets/az-recovery.png",
       "icon": "assets/az-recovery-icon.png",
       "accent": "#39d34a",
-      "installerUrl": "https://github.com/AZ1189/AZ-Recovery-Plus/releases/download/v1.0.2/AZ-Recovery-Plus-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Recovery-Plus/releases/download/v1.0.3/AZ-Recovery-Plus-Setup.exe",
       "installerFileName": "AZ-Recovery-Plus-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 1.0.2. Publishes the current installer set one patch version ahead of 1.0.1, with installer-only GitHub releases and source code kept local-only.",
+      "releaseNotes": "Version 1.0.3. Adds Light, Dark, and System theme controls to the Settings ribbon area across AZ apps, with refreshed installer-only GitHub releases and source code kept local-only.",
       "homepageUrl": "https://github.com/AZ1189/AZ-Recovery-Plus",
       "installCheck": {
         "paths": [
@@ -406,8 +406,8 @@
           "%AppData%\\AZ\\AZ Recovery+\\AZ-Recover.exe"
         ]
       },
-      "displayVersion": "1.0.2",
-      "buildVersion": "1.0.2",
+      "displayVersion": "1.0.3",
+      "buildVersion": "1.0.3",
       "installerFramework": "inno"
     }
   ]
