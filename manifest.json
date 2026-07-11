@@ -53,15 +53,15 @@
       "category": "Desktop",
       "tagline": "Desktop organizer and AZ Dock.",
       "description": "Organize the real Windows desktop with Desk Zones, folder portals, AZ Dock styling, and explicit taskbar size, gap and rounding controls.",
-      "version": "1.0.6",
-      "image": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.6/AZ-Desk.png",
-      "icon": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.6/AZ-Desk-icon.png",
-      "cardImage": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.6/AZ-Desk-icon.png",
+      "version": "1.0.7",
+      "image": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.7/AZ-Desk.png",
+      "icon": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.7/AZ-Desk-icon.png",
+      "cardImage": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.7/AZ-Desk-icon.png",
       "accent": "#0078d4",
-      "installerUrl": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.6/AZ-Desk-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.7/AZ-Desk-Setup.exe",
       "installerFileName": "AZ-Desk-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 1.0.6. Adds drag-on-empty-desktop Zone creation: draw a rectangle on the AZ-Desk layer, then choose Create Zone here or Create Folder Portal here. The desktop layer now accepts full-layer drag input while open so new Zones can be created directly where the user dragged. Installer-only GitHub release; source code stays local-only.",
+      "releaseNotes": "Version 1.0.7. Aligns the installer notice and wizard art with the other AZ apps, fixes AZ-Desk branding to show the hyphenated logo, records monitor labels for Zones created by dragging on the desktop layer, and adds Zone in/out collapse and expand controls. Installer-only GitHub release; source code stays local-only.",
       "homepageUrl": "https://github.com/AZ1189/AZ-Desk",
       "installCheck": {
         "paths": [
@@ -89,8 +89,8 @@
           "%AppData%\\AZ\\AZ-Desk\\AZ-Desk.exe"
         ]
       },
-      "displayVersion": "1.0.6",
-      "buildVersion": "1.0.6",
+      "displayVersion": "1.0.7",
+      "buildVersion": "1.0.7",
       "installerFramework": "nsis"
     },
     {
