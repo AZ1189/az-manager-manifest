@@ -48,6 +48,52 @@
       "installerFramework": "nsis"
     },
     {
+      "id": "az-desk",
+      "name": "AZ-Desk",
+      "category": "Desktop",
+      "tagline": "Desktop organizer and AZ Dock.",
+      "description": "Organize the real Windows desktop with Desk Zones, folder portals, AZ Dock styling, and explicit taskbar size, gap and rounding controls.",
+      "version": "1.0.4",
+      "image": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.4/AZ-Desk.png",
+      "icon": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.4/AZ-Desk-icon.png",
+      "cardImage": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.4/AZ-Desk-icon.png",
+      "accent": "#0078d4",
+      "installerUrl": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.4/AZ-Desk-Setup.exe",
+      "installerFileName": "AZ-Desk-Setup.exe",
+      "installerType": "exe",
+      "releaseNotes": "Version 1.0.4. Adds AZ-Desk, the AZ desktop organizer with real Windows desktop layer support, AZ Dock controls, folder portals, and explicit real taskbar size/gap/rounding actions. Installer-only GitHub release; source code stays local-only.",
+      "homepageUrl": "https://github.com/AZ1189/AZ-Desk",
+      "installCheck": {
+        "paths": [
+          "%ProgramFiles%\\AZ\\AZ-Desk\\AZ-Desk.exe",
+          "%ProgramFiles%\\AZ-Desk\\AZ-Desk.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ-Desk\\AZ-Desk.exe",
+          "%LocalAppData%\\AZ Applications\\AZ-Desk\\AZ-Desk.exe",
+          "%LocalAppData%\\Programs\\AZ-Desk\\AZ-Desk.exe",
+          "%AppData%\\AZ\\AZ-Desk\\AZ-Desk.exe"
+        ],
+        "aliases": [
+          "AZ-Desk",
+          "AZ Desk"
+        ],
+        "exes": [
+          "AZ-Desk.exe",
+          "AZ Desk.exe"
+        ],
+        "launchPaths": [
+          "%ProgramFiles%\\AZ\\AZ-Desk\\AZ-Desk.exe",
+          "%ProgramFiles%\\AZ-Desk\\AZ-Desk.exe",
+          "%ProgramFiles%\\AZ Applications\\AZ-Desk\\AZ-Desk.exe",
+          "%LocalAppData%\\AZ Applications\\AZ-Desk\\AZ-Desk.exe",
+          "%LocalAppData%\\Programs\\AZ-Desk\\AZ-Desk.exe",
+          "%AppData%\\AZ\\AZ-Desk\\AZ-Desk.exe"
+        ]
+      },
+      "displayVersion": "1.0.4",
+      "buildVersion": "1.0.4",
+      "installerFramework": "nsis"
+    },
+    {
       "id": "az-convert",
       "name": "AZ-Convert",
       "category": "Conversion",
