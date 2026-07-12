@@ -53,15 +53,15 @@
       "category": "Media",
       "tagline": "One player. Every format.",
       "description": "Play local video and music, organize a private media library, build playlists, and import user-authorized IPTV sources.",
-      "version": "1.0.0",
-      "image": "https://github.com/AZ1189/AZ-Player/releases/download/v1.0.0/AZ-Player.png",
-      "icon": "https://github.com/AZ1189/AZ-Player/releases/download/v1.0.0/AZ-Player-icon.png",
-      "cardImage": "https://github.com/AZ1189/AZ-Player/releases/download/v1.0.0/AZ-Player-icon.png",
+      "version": "1.0.1",
+      "image": "https://github.com/AZ1189/AZ-Player/releases/download/v1.0.1/AZ-Player.png",
+      "icon": "https://github.com/AZ1189/AZ-Player/releases/download/v1.0.1/AZ-Player-icon.png",
+      "cardImage": "https://github.com/AZ1189/AZ-Player/releases/download/v1.0.1/AZ-Player-icon.png",
       "accent": "#9c52e8",
-      "installerUrl": "https://github.com/AZ1189/AZ-Player/releases/download/v1.0.0/AZ-Player-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Player/releases/download/v1.0.1/AZ-Player-Setup.exe",
       "installerFileName": "AZ-Player-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 1.0.0. Adds local video and music playback, a private SQLite media library, playlists, and user-authorized M3U/IPTV sources. No channels, credentials, DRM bypass tools, or copyrighted media are bundled. Installer-only GitHub release; source code stays local-only.",
+      "releaseNotes": "Version 1.0.1. Adds persistent named playlists, recent and continue watching views, watched and favourite controls, and manual local metadata editing. No channels, credentials, DRM bypass tools, or copyrighted media are bundled. Installer-only GitHub release; source code stays local-only.",
       "homepageUrl": "https://github.com/AZ1189/AZ-Player",
       "installCheck": {
         "paths": [
@@ -89,8 +89,8 @@
           "%AppData%\\AZ\\AZ-Player\\AZ-Player.exe"
         ]
       },
-      "displayVersion": "1.0.0",
-      "buildVersion": "1.0.0",
+      "displayVersion": "1.0.1",
+      "buildVersion": "1.0.1",
       "installerFramework": "inno"
     },
     {
