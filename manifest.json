@@ -53,15 +53,15 @@
       "category": "Desktop",
       "tagline": "Desktop organizer and AZ Dock.",
       "description": "Organize the real Windows desktop with Desk Zones, folder portals, AZ Dock styling, and explicit taskbar size, gap and rounding controls.",
-      "version": "1.0.8",
-      "image": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.8/AZ-Desk.png",
-      "icon": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.8/AZ-Desk-icon.png",
-      "cardImage": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.8/AZ-Desk-icon.png",
+      "version": "1.0.9",
+      "image": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.9/AZ-Desk.png",
+      "icon": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.9/AZ-Desk-icon.png",
+      "cardImage": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.9/AZ-Desk-icon.png",
       "accent": "#0078d4",
-      "installerUrl": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.8/AZ-Desk-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.9/AZ-Desk-Setup.exe",
       "installerFileName": "AZ-Desk-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 1.0.8. Detects every monitor and Windows taskbar, anchors Zones to their display, centres an AZ dock on each screen, replaces Zone in/out text with directional arrows, and refreshes exact Windows shell icons for apps, shortcuts and file types. Stable taskbar regions preserve Explorer pins and system controls. Installer-only GitHub release; source code stays local-only.",
+      "releaseNotes": "Version 1.0.9. Uses the exact red 3D AZ from AZ Manager and enlarges the hyphenated -Desk wordmark across the app icon, header, installer wizard and AZ Manager card artwork. Installer-only GitHub release; source code stays local-only.",
       "homepageUrl": "https://github.com/AZ1189/AZ-Desk",
       "installCheck": {
         "paths": [
@@ -89,8 +89,8 @@
           "%AppData%\\AZ\\AZ-Desk\\AZ-Desk.exe"
         ]
       },
-      "displayVersion": "1.0.8",
-      "buildVersion": "1.0.8",
+      "displayVersion": "1.0.9",
+      "buildVersion": "1.0.9",
       "installerFramework": "nsis"
     },
     {
