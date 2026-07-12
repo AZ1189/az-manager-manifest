@@ -53,15 +53,15 @@
       "category": "Media",
       "tagline": "One player. Every format.",
       "description": "Play local video and music, organize a private media library, build playlists, and import user-authorized IPTV sources.",
-      "version": "1.0.2",
-      "image": "https://github.com/AZ1189/AZ-Player/releases/download/v1.0.2/AZ-Player.png",
-      "icon": "https://github.com/AZ1189/AZ-Player/releases/download/v1.0.2/AZ-Player-icon.png",
-      "cardImage": "https://github.com/AZ1189/AZ-Player/releases/download/v1.0.2/AZ-Player-icon.png",
+      "version": "1.0.3",
+      "image": "https://github.com/AZ1189/AZ-Player/releases/download/v1.0.3/AZ-Player.png",
+      "icon": "https://github.com/AZ1189/AZ-Player/releases/download/v1.0.3/AZ-Player-icon.png",
+      "cardImage": "https://github.com/AZ1189/AZ-Player/releases/download/v1.0.3/AZ-Player-icon.png",
       "accent": "#9c52e8",
-      "installerUrl": "https://github.com/AZ1189/AZ-Player/releases/download/v1.0.2/AZ-Player-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Player/releases/download/v1.0.3/AZ-Player-Setup.exe",
       "installerFileName": "AZ-Player-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 1.0.2. Fixes the installed executable startup crash with a correct Windows Per-Monitor V2 manifest, delays native video-host attachment until WPF is ready, honors hardware acceleration settings, and writes local startup diagnostics. Installer-only GitHub release; source code stays local-only.",
+      "releaseNotes": "Version 1.0.3. Adds batched background library scans, SQLite indexes, debounced search, throttled playback UI updates, guarded playback errors, bounded IPTV imports, and tuned purple theme styling. Installer-only GitHub release; source code stays local-only.",
       "homepageUrl": "https://github.com/AZ1189/AZ-Player",
       "installCheck": {
         "paths": [
@@ -89,8 +89,8 @@
           "%AppData%\\AZ\\AZ-Player\\AZ-Player.exe"
         ]
       },
-      "displayVersion": "1.0.2",
-      "buildVersion": "1.0.2",
+      "displayVersion": "1.0.3",
+      "buildVersion": "1.0.3",
       "installerFramework": "inno"
     },
     {
@@ -99,15 +99,15 @@
       "category": "Desktop",
       "tagline": "Desktop organizer and AZ Dock.",
       "description": "Organize the real Windows desktop with Desk Zones, folder portals, AZ Dock styling, and explicit taskbar size, gap and rounding controls.",
-      "version": "1.0.10",
-      "image": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.10/AZ-Desk.png",
-      "icon": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.10/AZ-Desk-icon.png",
-      "cardImage": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.10/AZ-Desk-icon.png",
+      "version": "1.0.11",
+      "image": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.11/AZ-Desk.png",
+      "icon": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.11/AZ-Desk-icon.png",
+      "cardImage": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.11/AZ-Desk-icon.png",
       "accent": "#0078d4",
-      "installerUrl": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.10/AZ-Desk-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Desk/releases/download/v1.0.11/AZ-Desk-Setup.exe",
       "installerFileName": "AZ-Desk-Setup.exe",
       "installerType": "exe",
-      "releaseNotes": "Version 1.0.10. Applies real per-monitor taskbar move, resize, gap and rounding geometry, restores each monitor independently, migrates legacy combined-desktop zones to monitor-relative positions, and adds display-ID fallback. Installer-only GitHub release; source code stays local-only.",
+      "releaseNotes": "Version 1.0.11. Adds cross-monitor zone dragging in Manager and the real desktop layer, monitor-aware dock previews and integration status, immediate taskbar reapply after editor changes, debounced topology updates, and a lighter recovery watchdog. Installer-only GitHub release; source code stays local-only.",
       "homepageUrl": "https://github.com/AZ1189/AZ-Desk",
       "installCheck": {
         "paths": [
@@ -135,8 +135,8 @@
           "%AppData%\\AZ\\AZ-Desk\\AZ-Desk.exe"
         ]
       },
-      "displayVersion": "1.0.10",
-      "buildVersion": "1.0.10",
+      "displayVersion": "1.0.11",
+      "buildVersion": "1.0.11",
       "installerFramework": "nsis"
     },
     {
