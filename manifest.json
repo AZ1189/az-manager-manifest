@@ -274,11 +274,11 @@
       "category": "Messaging",
       "tagline": "Private AZ messaging.",
       "description": "Send private messages, groups and small files.",
-      "version": "0.9.0",
+      "version": "0.9.1",
       "image": "assets/az-chat.png",
       "icon": "assets/az-chat-icon.png",
       "accent": "#10d8cf",
-      "installerUrl": "https://github.com/AZ1189/AZ-Chat/releases/download/v0.9.0/AZ-Chat-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/AZ-Chat/releases/download/v0.9.1/AZ-Chat-Setup.exe",
       "installerFileName": "AZ-Chat-Setup.exe",
       "installerType": "exe",
       "homepageUrl": "https://github.com/AZ1189/AZ-Chat",
@@ -306,8 +306,8 @@
           "%AppData%\\AZ\\AZ-Chat\\AZ-Chat.exe"
         ]
       },
-      "displayVersion": "0.9.0",
-      "buildVersion": "0.9.0",
+      "displayVersion": "0.9.1",
+      "buildVersion": "0.9.1",
       "installerFramework": "inno"
     },
     {
