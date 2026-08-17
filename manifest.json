@@ -186,11 +186,11 @@
       "category": "Documents",
       "tagline": "Word documents and PDF editing.",
       "description": "Create, edit and export Word documents and editable PDFs.",
-      "version": "0.9.2",
+      "version": "0.9.3",
       "image": "assets/docu-az.png",
       "icon": "assets/docu-az-icon.png",
       "accent": "#1f9bff",
-      "installerUrl": "https://github.com/AZ1189/Docu-AZ/releases/download/v0.9.2/Docu-AZ-Setup.exe",
+      "installerUrl": "https://github.com/AZ1189/Docu-AZ/releases/download/v0.9.3/Docu-AZ-Setup.exe",
       "installerFileName": "Docu-AZ-Setup.exe",
       "installerType": "exe",
       "homepageUrl": "https://github.com/AZ1189/Docu-AZ",
@@ -220,8 +220,8 @@
           "%AppData%\\AZ\\Docu-AZ\\Docu-AZ.exe"
         ]
       },
-      "displayVersion": "0.9.2",
-      "buildVersion": "0.9.2",
+      "displayVersion": "0.9.3",
+      "buildVersion": "0.9.3",
       "installerFramework": "nsis"
     },
     {
